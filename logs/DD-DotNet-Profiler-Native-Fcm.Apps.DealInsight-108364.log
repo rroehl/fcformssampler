@@ -1,0 +1,16 @@
+[2025-05-06 11:44:49.993 | info | PId: 108364 | TId: 69208] Profiler DLL loaded.
+[2025-05-06 11:44:49.993 | info | PId: 108364 | TId: 69208] Profiler version = 3.16.0
+[2025-05-06 11:44:49.993 | info | PId: 108364 | TId: 69208] Pointer size: 64 bits.
+[2025-05-06 11:44:50.003 | info | PId: 108364 | TId: 69208] Configuration: DD_PROFILING_CPU_ENABLED env var is not set - '1' is used as default value
+[2025-05-06 11:44:50.003 | info | PId: 108364 | TId: 69208] Configuration: DD_PROFILING_WALLTIME_ENABLED env var is not set - '1' is used as default value
+[2025-05-06 11:44:50.013 | info | PId: 108364 | TId: 69208] Configuration: DD_PROFILING_EXCEPTION_ENABLED env var is not set - '1' is used as default value
+[2025-05-06 11:44:50.013 | info | PId: 108364 | TId: 69208] Configuration: DD_PROFILING_ALLOCATION_ENABLED env var is not set - '0' is used as default value
+[2025-05-06 11:44:50.013 | info | PId: 108364 | TId: 69208] Configuration: DD_PROFILING_CONTENTION_ENABLED env var is not set - '1' is used as default value
+[2025-05-06 11:44:50.013 | info | PId: 108364 | TId: 69208] Configuration: DD_PROFILING_GC_ENABLED env var is not set - '1' is used as default value
+[2025-05-06 11:44:50.013 | info | PId: 108364 | TId: 69208] Configuration: DD_PROFILING_HEAP_ENABLED env var is not set - '0' is used as default value
+[2025-05-06 11:44:50.013 | info | PId: 108364 | TId: 69208] Configuration: DD_SERVICE env var is not set - 'Fcm.Apps.DealInsight.exe' is used as default value
+[2025-05-06 11:44:50.013 | info | PId: 108364 | TId: 69208] Configuration: DD_INTERNAL_PROFILING_ETW_ENABLED env var is not set - '1' is used as default value
+[2025-05-06 11:44:50.013 | info | PId: 108364 | TId: 69208] .NET Profiler deployment mode: Manual
+[2025-05-06 11:44:50.013 | info | PId: 108364 | TId: 69208] .NET Profiler environment variable 'DD_PROFILING_ENABLED' was not set. The .NET profiler will be disabled.
+[2025-05-06 11:44:50.013 | info | PId: 108364 | TId: 69208] DllGetClassObject(): Profiling is not enabled.
+[2025-05-06 11:54:25.904 | info | PId: 108364 | TId: 69208] Profiler DLL unloaded.

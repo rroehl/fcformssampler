@@ -1,0 +1,10 @@
+[2025-05-07 09:51:08.596 | info | PId: 32460 | TId: 36512] No "DD_TRACE_DEBUG" environment variable has been found. Enable debug log = 0 (default).
+[2025-05-07 09:51:08.597 | info | PId: 32460 | TId: 36512] Crashtracking - Registering unhandled exception filter.
+[2025-05-07 09:51:08.597 | info | PId: 32460 | TId: 36512] DynamicDispatcherImpl::LoadConfiguration: Reading configuration file from: "C:\\Program Files\\Datadog\\.NET Tracer\\win-x64\\loader.conf"
+[2025-05-07 09:51:08.606 | info | PId: 32460 | TId: 36512] DynamicInstanceImpl::LoadClassFactory: The IClassFactory from C:\Program Files\Datadog\.NET Tracer\win-x64\.\Datadog.Profiler.Native.dll is disabled
+[2025-05-07 09:51:08.606 | info | PId: 32460 | TId: 36512] The continuous profiler is disabled
+[2025-05-07 09:51:08.607 | info | PId: 32460 | TId: 36512] ICorProfilerInfo8 available. Profiling API compatibility: .NET Fx 4.7.2 or later.
+[2025-05-07 09:51:08.607 | info | PId: 32460 | TId: 36512] Process CommandLine: "\\FCSFDIGASD1\TemporaryData\DI_ROBB\Fcm.Apps.DealInsight.exe" 
+[2025-05-07 09:51:08.607 | info | PId: 32460 | TId: 36512] Initializing the Profiler: Reported runtime version : { clrInstanceId: 10, runtimeType:DESKTOP_CLR, majorVersion: 4, minorVersion: 0, buildNumber: 30319, qfeVersion: 0 }.
+[2025-05-07 09:51:08.607 | info | PId: 32460 | TId: 36512] Instrumentation Verification log is disabled.
+[2025-05-07 09:51:08.608 | info | PId: 32460 | TId: 36512] CorProfiler::Initialize: Tracer Profiler initialized successfully.

@@ -1,0 +1,10 @@
+[2025-05-22 13:01:32.649 | info | PId: 53608 | TId: 36048] Non boolean value "formsample" for "DD_TRACE_DEBUG" environment variable. Enable debug log = 0 (default).
+[2025-05-22 13:01:32.651 | info | PId: 53608 | TId: 36048] Crashtracking - Registering unhandled exception filter.
+[2025-05-22 13:01:32.651 | info | PId: 53608 | TId: 36048] DynamicDispatcherImpl::LoadConfiguration: Reading configuration file from: "C:\\Program Files\\Datadog\\.NET Tracer\\win-x64\\loader.conf"
+[2025-05-22 13:01:32.675 | info | PId: 53608 | TId: 36048] DynamicInstanceImpl::LoadClassFactory: The IClassFactory from C:\Program Files\Datadog\.NET Tracer\win-x64\.\Datadog.Profiler.Native.dll is disabled
+[2025-05-22 13:01:32.676 | info | PId: 53608 | TId: 36048] The continuous profiler is disabled
+[2025-05-22 13:01:32.676 | info | PId: 53608 | TId: 36048] ICorProfilerInfo12 available. Profiling API compatibility: .NET Core 5.0 or later.
+[2025-05-22 13:01:32.677 | info | PId: 53608 | TId: 36048] Process CommandLine: "C:\Users\rroehl\projects\DataDog\formsample\bin\Debug\net8.0-windows\formsample.exe" 
+[2025-05-22 13:01:32.678 | info | PId: 53608 | TId: 36048] Initializing the Profiler: Reported runtime version : { clrInstanceId: 7, runtimeType:CORE_CLR, majorVersion: 8, minorVersion: 0, buildNumber: 16, qfeVersion: 0 }.
+[2025-05-22 13:01:32.678 | info | PId: 53608 | TId: 36048] Instrumentation Verification log is disabled.
+[2025-05-22 13:01:32.678 | info | PId: 53608 | TId: 36048] CorProfiler::Initialize: Tracer Profiler initialized successfully.

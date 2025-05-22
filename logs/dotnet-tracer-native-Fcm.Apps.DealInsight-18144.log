@@ -1,0 +1,203 @@
+05/13/25 08:55:04.674 AM [18144|17940] [info] Datadog CLR Profiler 3.16.0 on Windows (amd64)
+05/13/25 08:55:04.676 AM [18144|17940] [info] ProcessName: Fcm.Apps.DealInsight.exe
+05/13/25 08:55:04.676 AM [18144|17940] [info] Process CommandLine: "\\FCSFDIGASD1\TemporaryData\DI_ROBB\Fcm.Apps.DealInsight.exe" 
+05/13/25 08:55:04.676 AM [18144|17940] [info] Environment variables:
+05/13/25 08:55:04.676 AM [18144|17940] [info]   DD_DOTNET_TRACER_HOME=C:\Program Files\Datadog\.NET Tracer\
+05/13/25 08:55:04.676 AM [18144|17940] [info]   DD_ENV=dev1
+05/13/25 08:55:04.676 AM [18144|17940] [info]   DD_VERSION=7.64.3
+05/13/25 08:55:04.676 AM [18144|17940] [info] Runtime Information: .NET Framework 4.0.30319
+05/13/25 08:55:04.676 AM [18144|29044] [info] Initializing ReJIT request thread.
+05/13/25 08:55:04.676 AM [18144|17940] [info] IAST Callsite instrumentation is disabled.
+05/13/25 08:55:04.676 AM [18144|17940] [info] RASP Callsite instrumentation is disabled.
+05/13/25 08:55:04.676 AM [18144|17940] [info] Callsite instrumentation is disabled.
+05/13/25 08:55:04.676 AM [18144|17940] [info] Profiler filepath: C:\Program Files\Datadog\.NET Tracer\win-x64\Datadog.Tracer.Native.dll
+05/13/25 08:55:04.676 AM [18144|17940] [info] Profiler attached.
+05/13/25 08:55:04.686 AM [18144|17940] [info] COR library: mscorlib 4.0.0
+05/13/25 08:55:05.015 AM [18144|17940] [info] JITCompilationStarted: Startup hook registered in function_id=140703859262560 token=100663306 name=Fcm.Apps.DealInsight.FrmMain.Main(), assembly_name=Fcm.Apps.DealInsight app_domain_id=1814720649168 domain_neutral=0
+05/13/25 08:55:05.424 AM [18144|17940] [info] ModuleLoadFinished: Datadog.Trace.ClrProfiler.Managed.Loader loaded into AppDomain 1814720649168 Fcm.Apps.DealInsight.exe
+05/13/25 08:55:05.500 AM [18144|17940] [info] ModuleLoadFinished: Datadog.Trace v3.16.0.0 - Fix PInvoke maps
+05/13/25 08:55:05.501 AM [18144|17940] [info] Rewriting PInvokes to native for Datadog.Trace.ClrProfiler.NativeMethods+Windows: C:\Program Files\Datadog\.NET Tracer\win-x64\Datadog.Tracer.Native.dll
+05/13/25 08:55:05.503 AM [18144|17940] [info] Rewriting PInvokes to native for Datadog.Trace.Debugger.PInvoke.DebuggerNativeMethods+Windows: C:\Program Files\Datadog\.NET Tracer\win-x64\Datadog.Tracer.Native.dll
+05/13/25 08:55:05.504 AM [18144|17940] [info] Rewriting PInvokes to native for Datadog.Trace.FaultTolerant.FaultTolerantNativeMethods+Windows: C:\Program Files\Datadog\.NET Tracer\win-x64\Datadog.Tracer.Native.dll
+05/13/25 08:55:05.504 AM [18144|17940] [info] Rewriting PInvokes to native for Datadog.Trace.LibDatadog.NativeInterop+Exporter: C:\Program Files\Datadog\.NET Tracer\win-x64\datadog_profiling_ffi.dll
+05/13/25 08:55:05.504 AM [18144|17940] [info] Rewriting PInvokes to native for Datadog.Trace.LibDatadog.NativeInterop+Config: C:\Program Files\Datadog\.NET Tracer\win-x64\datadog_profiling_ffi.dll
+05/13/25 08:55:05.510 AM [18144|17940] [info] Rewriting PInvokes to native for Datadog.Trace.NativeLoader+NativeMethods: C:\Program Files\Datadog\.NET Tracer\win-x64\Datadog.Trace.ClrProfiler.Native.dll
+05/13/25 08:55:05.512 AM [18144|17940] [info] Successfully added method DistributedTracer.__GetInstanceForProfiler__ for ModuleID=140703861154888
+05/13/25 08:55:05.512 AM [18144|17940] [info] Rewriting Instrumentation.GetNativeTracerVersion() => PROFILER_VERSION
+05/13/25 08:55:05.512 AM [18144|17940] [info] AssemblyLoadFinished: Datadog.Trace.dll v3.16.0.0 matched profiler version v3.16.0.0
+05/13/25 08:55:05.512 AM [18144|17940] [info] ByRef Instrumentation enabled.
+05/13/25 08:55:05.512 AM [18144|17940] [info] CallTargetState ByRef enabled.
+05/13/25 08:55:05.512 AM [18144|17940] [info] AddTraceAttributeInstrumentation: Initialized assembly=Datadog.Trace, Version=3.16.0.0, Culture=neutral, PublicKeyToken=def86d061d0d2eeb, type=Datadog.Trace.ClrProfiler.AutoInstrumentation.TraceAnnotations.TraceAnnotationsIntegration
+05/13/25 08:55:05.512 AM [18144|17940] [info] AssemblyLoadFinished: Datadog.Trace.dll was not loaded domain-neutral
+05/13/25 08:55:06.020 AM [18144|17940] [info] Total number of modules to analyze: 6
+05/13/25 08:55:06.077 AM [18144|29044] [info] Request ReJIT done for 12 methods
+05/13/25 08:55:06.077 AM [18144|17940] [info] RegisterCallTargetDefinitions: Added 718 call targets (enabled: 581, enabled categories: 1) 
+05/13/25 08:55:06.098 AM [18144|13392] [info] [ResolveType] GetTypeRefProps [1] has failed. typeRefToken: 16777813
+05/13/25 08:55:06.099 AM [18144|13392] [info] *** CallTarget_RewriterCallback() Finished: System.Net.HttpWebRequest.BeginGetRequestStream() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.Http.WebRequest.HttpWebRequest_BeginGetRequestStream_Integration, Arguments=2]
+05/13/25 08:55:06.158 AM [18144|13392] [info] *** CallTarget_RewriterCallback() Finished: System.Net.WebRequest.GetResponseAsync() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.Http.WebRequest.WebRequest_GetResponseAsync_Integration, Arguments=0]
+05/13/25 08:55:06.166 AM [18144|18028] [info] *** CallTarget_RewriterCallback() Finished: System.Net.HttpWebRequest.BeginGetResponse() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.Http.WebRequest.HttpWebRequest_BeginGetResponse_Integration, Arguments=2]
+05/13/25 08:55:06.171 AM [18144|18688] [info] *** CallTarget_RewriterCallback() Finished: System.Net.HttpWebRequest.EndGetResponse() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.Http.WebRequest.HttpWebRequest_EndGetResponse_Integration, Arguments=1]
+05/13/25 08:55:10.894 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:13.758 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:15.550 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:15.863 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:17.088 AM [18144|29044] [info] Request ReJIT done for 36 methods
+05/13/25 08:55:20.383 AM [18144|17940] [info] *** CallTarget_RewriterCallback() Finished: System.Data.SqlClient.SqlCommand.ExecuteScalar() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.AdoNet.CommandExecuteScalarIntegration, Arguments=0]
+05/13/25 08:55:20.470 AM [18144|17940] [info] *** CallTarget_RewriterCallback() Finished: System.Data.SqlClient.SqlCommand.ExecuteNonQuery() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.AdoNet.CommandExecuteNonQueryIntegration, Arguments=0]
+05/13/25 08:55:20.499 AM [18144|17940] [info] *** CallTarget_RewriterCallback() Finished: System.Data.SqlClient.SqlCommand.ExecuteDbDataReader() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.AdoNet.CommandExecuteReaderWithBehaviorIntegration, Arguments=1]
+05/13/25 08:55:23.609 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:24.216 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:24.669 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:27.264 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:29.410 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:32.152 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:34.692 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:37.378 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:38.609 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:43.647 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:44.505 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 08:55:46.479 AM [18144|29044] [info] Request ReJIT done for 3 methods
+05/13/25 08:55:46.722 AM [18144|29044] [info] Request ReJIT done for 7 methods
+05/13/25 08:55:47.026 AM [18144|17940] [info] NGEN:: Processed with 1 inliners [ModuleId=140704583127040,MethodDef=100676835]
+05/13/25 08:55:47.026 AM [18144|17940] [info] NGEN:: Processed with 1 inliners [ModuleId=140704583127040,MethodDef=100676833]
+05/13/25 08:55:47.026 AM [18144|29044] [info] Request ReJIT done for 1 methods
+05/13/25 08:55:47.026 AM [18144|29044] [info] Request ReJIT done for 1 methods
+05/13/25 08:55:47.981 AM [18144|29044] [info] Request ReJIT done for 1 methods
+05/13/25 08:55:49.289 AM [18144|29044] [info] Request ReJIT done for 12 methods
+05/13/25 09:19:49.625 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 09:19:50.172 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 09:19:52.663 AM [18144|17940] [warning] Timeout while waiting for the rejit requests to be processed. Rejit will continue asynchronously, but some initial calls may not be instrumented
+05/13/25 09:20:07.202 AM [18144|14696] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Threading.CancellationToken
+05/13/25 09:20:07.203 AM [18144|14696] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Threading.CancellationToken
+05/13/25 09:20:07.203 AM [18144|14696] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Threading.CancellationToken
+05/13/25 09:20:07.203 AM [18144|14696] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Threading.CancellationToken
+05/13/25 09:20:07.203 AM [18144|14696] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Threading.CancellationToken
+05/13/25 09:20:07.203 AM [18144|14696] [info] *** CallTarget_RewriterCallback() Finished: System.Net.Http.HttpClientHandler.SendAsync() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.Http.HttpClient.HttpClientHandler.HttpClientHandlerIntegration, Arguments=2]
+05/13/25 10:35:13.251 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:13.251 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:13.252 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:13.252 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:13.252 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:13.252 AM [18144|17940] [info] *** CallTarget_RewriterCallback() Finished: System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.Remoting.Client.SyncProcessMessageIntegration, Arguments=1]
+05/13/25 10:35:13.256 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:13.256 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:13.256 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:13.256 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:13.256 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:13.256 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:13.257 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:13.257 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:13.257 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:13.257 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:13.257 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:13.257 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:13.257 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:13.257 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:13.257 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:13.257 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:13.257 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:13.257 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:13.257 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:13.258 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:13.258 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:13.258 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:13.258 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:13.258 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:13.258 AM [18144|17940] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:13.258 AM [18144|17940] [info] *** CallTarget_RewriterCallback() Finished: System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage() [IsVoid=1, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.Remoting.Client.IpcTcpProcessMessageIntegration, Arguments=5]
+05/13/25 10:35:15.289 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerChannelSinkStack
+05/13/25 10:35:15.290 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.290 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.290 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.290 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.291 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.291 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.291 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerChannelSinkStack
+05/13/25 10:35:15.291 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.291 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.291 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.291 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.292 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.292 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.292 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerChannelSinkStack
+05/13/25 10:35:15.292 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.292 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.292 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.292 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.292 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.292 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.293 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerChannelSinkStack
+05/13/25 10:35:15.293 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.293 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.293 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.293 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.293 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.293 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.293 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerChannelSinkStack
+05/13/25 10:35:15.293 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.293 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.294 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.294 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.294 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.294 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.294 AM [18144|20776] [info] *** CallTarget_RewriterCallback() Finished: System.Runtime.Remoting.Channels.BinaryServerFormatterSink.ProcessMessage() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.Remoting.Server.ProcessMessageIntegration, Arguments=7]
+05/13/25 10:35:15.304 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerChannelSinkStack
+05/13/25 10:35:15.304 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.304 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.304 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.304 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.304 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.304 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerChannelSinkStack
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerChannelSinkStack
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerChannelSinkStack
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.305 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.306 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.306 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.306 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.306 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.306 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerChannelSinkStack
+05/13/25 10:35:15.306 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.306 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.306 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.306 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.306 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.306 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.306 AM [18144|20776] [info] *** CallTarget_RewriterCallback() Finished: System.Runtime.Remoting.Channels.SoapServerFormatterSink.ProcessMessage() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.Remoting.Server.ProcessMessageIntegration, Arguments=7]
+05/13/25 10:35:15.325 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Messaging.IMessage
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.Runtime.Remoting.Channels.ITransportHeaders
+05/13/25 10:35:15.326 AM [18144|20776] [warning] [ResolveTypeInternal] GetAssemblyFromScope has failed with: System.IO.Stream
+05/13/25 10:35:15.327 AM [18144|20776] [info] *** CallTarget_RewriterCallback() Finished: System.Runtime.Remoting.Channels.BinaryServerFormatterSink.SerializeResponse() [IsVoid=1, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.Remoting.Server.BinarySerializeResponseIntegration, Arguments=4]
+05/13/25 10:50:25.487 AM [18144|29044] [info] Exiting ReJIT request thread.
+05/13/25 10:50:25.488 AM [18144|21716] [info] Exiting...
+05/13/25 10:50:25.488 AM [18144|21716] [info] Stats: Total time: 6920722ms | Total time in Callbacks: 11079ms [Initialize=0ms, ModuleLoadFinished=3463ms/127, CallTargetRequestRejit=7120ms/104, CallTargetRewriter=30ms/13, AssemblyLoadFinished=1ms/126, ModuleUnloadStarted=0ms/0, JitCompilationStarted=367ms/42835, JitInlining=61ms/211067, JitCacheFunctionSearchStarted=33ms/3680, InitializeProfiler=0ms/0]
