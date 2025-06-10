@@ -1,0 +1,90 @@
+[2025-06-10 13:12:21.591 | info | PId: 33268 | TId: 29456] Enable debug log = 1 from (DD_TRACE_DEBUG environment variable)
+[2025-06-10 13:12:21.592 | info | PId: 33268 | TId: 29456] Crashtracking - Registering unhandled exception filter.
+[2025-06-10 13:12:21.592 | debug | PId: 33268 | TId: 29456] Crashtracking - Unregistering the .NET handler C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.16\mscordaccore.dll
+[2025-06-10 13:12:21.592 | debug | PId: 33268 | TId: 29456] Crashtracking - Registering the crash handler C:\Program Files\Datadog\.NET Tracer\win-x64\Datadog.Trace.ClrProfiler.Native.dll
+[2025-06-10 13:12:21.592 | debug | PId: 33268 | TId: 29456] DynamicDispatcherImpl::LoadConfiguration:  Setting environment variable: DD_INTERNAL_NATIVE_LOADER_PATH=C:\Program Files\Datadog\.NET Tracer\win-x64\Datadog.Trace.ClrProfiler.Native.dll
+[2025-06-10 13:12:21.592 | debug | PId: 33268 | TId: 29456] DynamicDispatcherImpl::LoadConfiguration: SetEnvironmentValue result: 1
+[2025-06-10 13:12:21.592 | info | PId: 33268 | TId: 29456] DynamicDispatcherImpl::LoadConfiguration: Reading configuration file from: "C:\\Program Files\\Datadog\\.NET Tracer\\win-x64\\loader.conf"
+[2025-06-10 13:12:21.592 | debug | PId: 33268 | TId: 29456] DynamicDispatcherImpl::LoadConfiguration: Config Folder: "C:\\Program Files\\Datadog\\.NET Tracer\\win-x64\\"
+[2025-06-10 13:12:21.592 | debug | PId: 33268 | TId: 29456] #Profiler
+[2025-06-10 13:12:21.592 | debug | PId: 33268 | TId: 29456] PROFILER;{BD1A650D-AC5D-4896-B64F-D6FA25D6B26A};win-x64;.\Datadog.Profiler.Native.dll
+[2025-06-10 13:12:21.592 | debug | PId: 33268 | TId: 29456] DynamicDispatcherImpl::LoadConfiguration: [PROFILER] Loading: .\Datadog.Profiler.Native.dll [AbsolutePath=C:\Program Files\Datadog\.NET Tracer\win-x64\.\Datadog.Profiler.Native.dll] (win-x64)
+[2025-06-10 13:12:21.592 | debug | PId: 33268 | TId: 29456] [PROFILER] Creating a new DynamicInstance object
+[2025-06-10 13:12:21.592 | debug | PId: 33268 | TId: 29456] Load: C:\Program Files\Datadog\.NET Tracer\win-x64\.\Datadog.Profiler.Native.dll
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] GetFunction: DllGetClassObject
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] GetFunction: DllCanUnloadNow
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] DynamicDispatcherImpl::LoadConfiguration: [PROFILER] Setting environment variable: DD_INTERNAL_PROFILING_NATIVE_ENGINE_PATH=C:\Program Files\Datadog\.NET Tracer\win-x64\.\Datadog.Profiler.Native.dll
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] DynamicDispatcherImpl::LoadConfiguration: [PROFILER] SetEnvironmentValue result: 1
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] PROFILER;{BD1A650D-AC5D-4896-B64F-D6FA25D6B26A};win-x86;.\Datadog.Profiler.Native.dll
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] PROFILER;{BD1A650D-AC5D-4896-B64F-D6FA25D6B26A};linux-x64;./Datadog.Profiler.Native.so
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] PROFILER;{BD1A650D-AC5D-4896-B64F-D6FA25D6B26A};linux-musl-x64;./Datadog.Profiler.Native.so
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] PROFILER;{BD1A650D-AC5D-4896-B64F-D6FA25D6B26A};linux-arm64;./Datadog.Profiler.Native.so
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] PROFILER;{BD1A650D-AC5D-4896-B64F-D6FA25D6B26A};linux-musl-arm64;./Datadog.Profiler.Native.so
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] #Tracer
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] TRACER;{50DA5EED-F1ED-B00B-1055-5AFE55A1ADE5};win-arm64;.\Datadog.Tracer.Native.dll
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] TRACER;{50DA5EED-F1ED-B00B-1055-5AFE55A1ADE5};win-x64;.\Datadog.Tracer.Native.dll
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] DynamicDispatcherImpl::LoadConfiguration: [TRACER] Loading: .\Datadog.Tracer.Native.dll [AbsolutePath=C:\Program Files\Datadog\.NET Tracer\win-x64\.\Datadog.Tracer.Native.dll] (win-x64)
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] [TRACER] Creating a new DynamicInstance object
+[2025-06-10 13:12:21.624 | debug | PId: 33268 | TId: 29456] Load: C:\Program Files\Datadog\.NET Tracer\win-x64\.\Datadog.Tracer.Native.dll
+[2025-06-10 13:12:21.640 | debug | PId: 33268 | TId: 29456] GetFunction: DllGetClassObject
+[2025-06-10 13:12:21.640 | debug | PId: 33268 | TId: 29456] GetFunction: DllCanUnloadNow
+[2025-06-10 13:12:21.640 | debug | PId: 33268 | TId: 29456] DynamicDispatcherImpl::LoadConfiguration: [TRACER] Setting environment variable: DD_INTERNAL_TRACE_NATIVE_ENGINE_PATH=C:\Program Files\Datadog\.NET Tracer\win-x64\.\Datadog.Tracer.Native.dll
+[2025-06-10 13:12:21.640 | debug | PId: 33268 | TId: 29456] DynamicDispatcherImpl::LoadConfiguration: [TRACER] SetEnvironmentValue result: 1
+[2025-06-10 13:12:21.641 | debug | PId: 33268 | TId: 29456] TRACER;{50DA5EED-F1ED-B00B-1055-5AFE55A1ADE5};win-x86;.\Datadog.Tracer.Native.dll
+[2025-06-10 13:12:21.641 | debug | PId: 33268 | TId: 29456] TRACER;{50DA5EED-F1ED-B00B-1055-5AFE55A1ADE5};linux-x64;./Datadog.Tracer.Native.so
+[2025-06-10 13:12:21.641 | debug | PId: 33268 | TId: 29456] TRACER;{50DA5EED-F1ED-B00B-1055-5AFE55A1ADE5};linux-musl-x64;./Datadog.Tracer.Native.so
+[2025-06-10 13:12:21.641 | debug | PId: 33268 | TId: 29456] TRACER;{50DA5EED-F1ED-B00B-1055-5AFE55A1ADE5};linux-arm64;./Datadog.Tracer.Native.so
+[2025-06-10 13:12:21.641 | debug | PId: 33268 | TId: 29456] TRACER;{50DA5EED-F1ED-B00B-1055-5AFE55A1ADE5};linux-musl-arm64;./Datadog.Tracer.Native.so
+[2025-06-10 13:12:21.641 | debug | PId: 33268 | TId: 29456] TRACER;{50DA5EED-F1ED-B00B-1055-5AFE55A1ADE5};osx-x64;./Datadog.Tracer.Native.dylib
+[2025-06-10 13:12:21.641 | debug | PId: 33268 | TId: 29456] TRACER;{50DA5EED-F1ED-B00B-1055-5AFE55A1ADE5};osx-arm64;./Datadog.Tracer.Native.dylib
+[2025-06-10 13:12:21.641 | debug | PId: 33268 | TId: 29456] DllGetClassObject
+[2025-06-10 13:12:21.641 | debug | PId: 33268 | TId: 29456] CorProfilerClassFactory::.ctor
+[2025-06-10 13:12:21.641 | debug | PId: 33268 | TId: 29456] CorProfilerClassFactory::QueryInterface
+[2025-06-10 13:12:21.641 | debug | PId: 33268 | TId: 29456] CorProfilerClassFactory::AddRef
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] DynamicInstanceImpl::LoadClassFactory: 0
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] DynamicInstanceImpl::LoadClassFactory: 0
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfilerClassFactory::CreateInstance
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::.ctor
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::QueryInterface
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::AddRef
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] DynamicInstanceImpl::LoadInstance
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] DynamicInstanceImpl::LoadInstance: m_classFactory: 88082bfff97f0000
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] DynamicInstanceImpl::LoadInstance: 0
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] DynamicInstanceImpl::LoadInstance
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] DynamicInstanceImpl::LoadInstance: m_classFactory: e84bbdf3f97f0000
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] DynamicInstanceImpl::LoadInstance: 0
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfilerClassFactory::CreateInstance: 0
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfilerClassFactory::Release
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::QueryInterface
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::AddRef
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::Release
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::QueryInterface
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::QueryInterface
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::AddRef
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::AddRef
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::AddRef
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::AddRef
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::AddRef
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::AddRef
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::AddRef
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::AddRef
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::Initialize
+[2025-06-10 13:12:21.642 | info | PId: 33268 | TId: 29456] ICorProfilerInfo12 available. Profiling API compatibility: .NET Core 5.0 or later.
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] ProcessName: formsample.exe
+[2025-06-10 13:12:21.642 | debug | PId: 33268 | TId: 29456] CorProfiler::Initialize
+[2025-06-10 13:12:21.643 | info | PId: 33268 | TId: 29456] Process CommandLine: "C:\Users\rroehl\projects\DataDog\formsample\bin\Debug\net8.0-windows\formsample.exe" 
+[2025-06-10 13:12:21.643 | debug | PId: 33268 | TId: 29456] SingleStepGuardRails::CheckRuntime: Checking for Single step instrumentation environment using DD_INJECTION_ENABLED
+[2025-06-10 13:12:21.643 | info | PId: 33268 | TId: 29456] Initializing the Profiler: Reported runtime version : { clrInstanceId: 7, runtimeType:CORE_CLR, majorVersion: 8, minorVersion: 0, buildNumber: 16, qfeVersion: 0 }.
+[2025-06-10 13:12:21.643 | debug | PId: 33268 | TId: 29456] CorProfiler::Initialize: MaskLow: 0
+[2025-06-10 13:12:21.643 | debug | PId: 33268 | TId: 29456] CorProfiler::Initialize: MaskHi : 0
+[2025-06-10 13:12:21.643 | info | PId: 33268 | TId: 29456] Instrumentation Verification log is disabled.
+[2025-06-10 13:12:21.650 | debug | PId: 33268 | TId: 29456] CorProfiler::Initialize: *LocalMaskLow: 268436052
+[2025-06-10 13:12:21.650 | debug | PId: 33268 | TId: 29456] CorProfiler::Initialize: *LocalMaskHi : 128
+[2025-06-10 13:12:21.650 | info | PId: 33268 | TId: 29456] CorProfiler::Initialize: Continuous Profiler initialized successfully.
+[2025-06-10 13:12:21.650 | debug | PId: 33268 | TId: 29456] CorProfiler::Initialize: *LocalMaskLow: 1074135100
+[2025-06-10 13:12:21.650 | debug | PId: 33268 | TId: 29456] CorProfiler::Initialize: *LocalMaskHi : 1
+[2025-06-10 13:12:21.651 | info | PId: 33268 | TId: 29456] CorProfiler::Initialize: Tracer Profiler initialized successfully.
+[2025-06-10 13:12:21.651 | debug | PId: 33268 | TId: 29456] CorProfiler::Initialize: *MaskLow: 1342571132
+[2025-06-10 13:12:21.651 | debug | PId: 33268 | TId: 29456] CorProfiler::Initialize: *MaskHi : 129
+[2025-06-10 13:45:22.465 | debug | PId: 33268 | TId: 29456] DllMain: DLL_PROCESS_DETACH
+[2025-06-10 13:45:22.465 | debug | PId: 33268 | TId: 29456] Crashtracking - Unregistering crash handler: 0

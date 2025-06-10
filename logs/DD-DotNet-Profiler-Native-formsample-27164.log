@@ -1,0 +1,1923 @@
+[2025-06-10 14:18:17.113 | info | PId: 27164 | TId: 32676] Profiler DLL loaded.
+[2025-06-10 14:18:17.113 | info | PId: 27164 | TId: 32676] Profiler version = 3.16.0
+[2025-06-10 14:18:17.113 | info | PId: 27164 | TId: 32676] Pointer size: 64 bits.
+[2025-06-10 14:18:17.116 | info | PId: 27164 | TId: 32676] Configuration: DD_PROFILING_CPU_ENABLED env var is not set - '1' is used as default value
+[2025-06-10 14:18:17.116 | info | PId: 27164 | TId: 32676] Configuration: DD_PROFILING_WALLTIME_ENABLED env var is not set - '1' is used as default value
+[2025-06-10 14:18:17.116 | info | PId: 27164 | TId: 32676] Configuration: DD_PROFILING_EXCEPTION_ENABLED env var is not set - '1' is used as default value
+[2025-06-10 14:18:17.116 | info | PId: 27164 | TId: 32676] Configuration: DD_PROFILING_ALLOCATION_ENABLED env var is not set - '0' is used as default value
+[2025-06-10 14:18:17.116 | info | PId: 27164 | TId: 32676] Configuration: DD_PROFILING_CONTENTION_ENABLED env var is not set - '1' is used as default value
+[2025-06-10 14:18:17.116 | info | PId: 27164 | TId: 32676] Configuration: DD_PROFILING_GC_ENABLED env var is not set - '1' is used as default value
+[2025-06-10 14:18:17.116 | info | PId: 27164 | TId: 32676] Configuration: DD_PROFILING_HEAP_ENABLED env var is not set - '0' is used as default value
+[2025-06-10 14:18:17.116 | info | PId: 27164 | TId: 32676] Configuration: DD_SERVICE env var is not set - 'formsample.exe' is used as default value
+[2025-06-10 14:18:17.116 | info | PId: 27164 | TId: 32676] Configuration: DD_INTERNAL_PROFILING_ETW_ENABLED env var is not set - '1' is used as default value
+[2025-06-10 14:18:17.116 | info | PId: 27164 | TId: 32676] .NET Profiler deployment mode: Manual
+[2025-06-10 14:18:17.116 | info | PId: 27164 | TId: 32676] .NET Profiler is explictly enabled.
+[2025-06-10 14:18:17.116 | info | PId: 27164 | TId: 32676] DllGetClassObject(): Returning an instance of CorProfilerCallbackFactory (hr=0x0)
+[2025-06-10 14:18:17.118 | info | PId: 27164 | TId: 32676] CorProfilerCallback is initializing.
+[2025-06-10 14:18:17.118 | info | PId: 27164 | TId: 32676] Enable debug log = 1 from ("DD_TRACE_DEBUG" environment variable)
+[2025-06-10 14:18:17.118 | info | PId: 27164 | TId: 32676] Environment variables:
+[2025-06-10 14:18:17.118 | debug | PId: 27164 | TId: 32676] ProcessStart(Manual)
+[2025-06-10 14:18:17.118 | info | PId: 27164 | TId: 32676] IsWow64Process : False
+[2025-06-10 14:18:17.119 | info | PId: 27164 | TId: 32676] IsWindowsServer: False.
+[2025-06-10 14:18:17.119 | info | PId: 27164 | TId: 32676] GetNativeSystemInfo results: wProcessorArchitecture="x64 AMD or Intel"(=9), dwPageSize=4096, lpMinimumApplicationAddress=0x0000000000010000, lpMaximumApplicationAddress=0x00007FFFFFFEFFFF, dwActiveProcessorMask=0x3fff, dwNumberOfProcessors=14, dwProcessorType=8664, dwAllocationGranularity=65536, wProcessorLevel=6, wProcessorRevision=43524
+[2025-06-10 14:18:17.119 | info | PId: 27164 | TId: 32676] ICorProfilerInfo13 available. Profiling API compatibility: .NET Core 7.0 or later.
+[2025-06-10 14:18:17.119 | info | PId: 27164 | TId: 32676] Initializing the Profiler: Reported runtime version :{ clrInstanceId:7, runtimeType:CORE_CLR, majorVersion: 8, minorVersion: 0, buildNumber: 16, qfeVersion: 0 }
+[2025-06-10 14:18:17.119 | info | PId: 27164 | TId: 32676] No "DD_INTERNAL_OPERATIONAL_METRICS_ENABLED" environment variable has been found. Default: Operational metrics disabled.
+[2025-06-10 14:18:17.119 | info | PId: 27164 | TId: 32676] Using agent endpoint http://localhost:8126
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] ThreadsCpuManager started successfully.
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] ManagedThreadList started successfully.
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] ManagedThreadList started successfully.
+[2025-06-10 14:18:17.128 | debug | PId: 27164 | TId: 32676] LoadDynamicLibrary: C:\Program Files\Datadog\.NET Tracer\win-x64\Datadog.Trace.ClrProfiler.Native.dll
+[2025-06-10 14:18:17.128 | debug | PId: 27164 | TId: 32676] GetExternalFunction: GetRuntimeId
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] RuntimeID Store started successfully.
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] WallTimeProvider started successfully.
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] CpuTimeProvider started successfully.
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] ExceptionsProvider started successfully.
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] ContentionProvider started successfully.
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] StopTheWorldGCProvider started successfully.
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] GarbageCollectorProvider started successfully.
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] Processor cores = 14
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] CPU and wall time sampling period = 9 ms
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] Wall time sampled threads = 5
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] Max CodeHotspots sampled threads = 10
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] Max CPU sampled threads = 64
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] Manual Cpu profiler is enabled
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] Wall-time profiler is enabled
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] StackSamplerLoopManager started successfully.
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] ApplicationStore started successfully.
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] Starting the samples collector
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32676] SamplesCollector started successfully.
+[2025-06-10 14:18:17.128 | debug | PId: 27164 | TId: 32396] OpSysTools::InitDelegates_GetSetThreadDescription() completed. s_setThreadDescriptionDelegate set: 1; s_getThreadDescriptionDelegate set: 1
+[2025-06-10 14:18:17.128 | info | PId: 27164 | TId: 32396] StackSamplerLoopManager::WatcherLoop started.
+[2025-06-10 14:18:17.128 | debug | PId: 27164 | TId: 32396] Map (32396) to DD_Watcher
+[2025-06-10 14:18:17.128 | debug | PId: 27164 | TId: 34504] Map (34504) to DD_worker
+[2025-06-10 14:18:17.128 | debug | PId: 27164 | TId: 18072] StackSamplerLoop::MainLoop started.
+[2025-06-10 14:18:17.128 | debug | PId: 27164 | TId: 18072] Map (18072) to DD_StackSampler
+[2025-06-10 14:18:17.128 | debug | PId: 27164 | TId: 20832] Map (20832) to DD_exporter
+[2025-06-10 14:18:17.130 | debug | PId: 27164 | TId: 32676] Callback invoked: ThreadCreated(threadId=0x253a27eef10)
+[2025-06-10 14:18:17.130 | debug | PId: 27164 | TId: 32676] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x253a27eef10, osThreadId=32676)
+[2025-06-10 14:18:17.130 | debug | PId: 27164 | TId: 32676] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x253a27eef10, osThreadId: 32676, osThreadHandle: 0x00000000000002CC) completed for ProfilerThreadInfoId=1.
+[2025-06-10 14:18:17.131 | debug | PId: 27164 | TId: 32128] Callback invoked: ThreadCreated(threadId=0x253a2814480)
+[2025-06-10 14:18:17.131 | debug | PId: 27164 | TId: 32128] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x253a2814480, osThreadId=32128)
+[2025-06-10 14:18:17.131 | debug | PId: 27164 | TId: 32128] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x253a2814480, osThreadId: 32128, osThreadHandle: 0x0000000000000310) completed for ProfilerThreadInfoId=2.
+[2025-06-10 14:18:17.145 | debug | PId: 27164 | TId: 29768] Callback invoked: ThreadCreated(threadId=0x253a2820260)
+[2025-06-10 14:18:17.145 | debug | PId: 27164 | TId: 29768] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x253a2820260, osThreadId=29768)
+[2025-06-10 14:18:17.145 | debug | PId: 27164 | TId: 29768] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x253a2820260, osThreadId: 29768, osThreadHandle: 0x0000000000000344) completed for ProfilerThreadInfoId=3.
+[2025-06-10 14:18:17.158 | debug | PId: 27164 | TId: 32676] Event pipe provider: Microsoft-Windows-DotNETRuntime
+[2025-06-10 14:18:17.180 | debug | PId: 27164 | TId: 32676] Event pipe provider: System.Runtime
+[2025-06-10 14:18:17.234 | debug | PId: 27164 | TId: 32676] Event pipe provider: System.Buffers.ArrayPoolEventSource
+[2025-06-10 14:18:17.324 | debug | PId: 27164 | TId: 32676] Event pipe provider: System.Threading.Tasks.TplEventSource
+[2025-06-10 14:18:17.325 | debug | PId: 27164 | TId: 32676] Event pipe provider: System.Diagnostics.Eventing.FrameworkEventSource
+[2025-06-10 14:18:17.326 | debug | PId: 27164 | TId: 4428] Callback invoked: ThreadCreated(threadId=0x253827c9f30)
+[2025-06-10 14:18:17.326 | debug | PId: 27164 | TId: 4428] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x253827c9f30, osThreadId=4428)
+[2025-06-10 14:18:17.326 | debug | PId: 27164 | TId: 4428] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x253827c9f30, osThreadId: 4428, osThreadHandle: 0x00000000000004A0) completed for ProfilerThreadInfoId=4.
+[2025-06-10 14:18:17.326 | debug | PId: 27164 | TId: 32676] CorProfilerCallback::ThreadNameChanged(threadId=0x25382749050, name=".NET TP Gate")
+[2025-06-10 14:18:17.326 | debug | PId: 27164 | TId: 32676] Map (0) to .NET TP Gate
+[2025-06-10 14:18:17.326 | debug | PId: 27164 | TId: 32676] ManagedThreadList::SetThreadName(clrThreadId: 0x25382749050, pThreadName: ".NET TP Gate") completed for ProfilerThreadInfoId=5.
+[2025-06-10 14:18:17.326 | debug | PId: 27164 | TId: 4428] CorProfilerCallback::ThreadNameChanged(threadId=0x253827c9f30, name=".NET TP Worker")
+[2025-06-10 14:18:17.326 | debug | PId: 27164 | TId: 4428] Map (4428) to .NET TP Worker
+[2025-06-10 14:18:17.326 | debug | PId: 27164 | TId: 4428] ManagedThreadList::SetThreadName(clrThreadId: 0x253827c9f30, pThreadName: ".NET TP Worker") completed for ProfilerThreadInfoId=4.
+[2025-06-10 14:18:17.326 | debug | PId: 27164 | TId: 26876] Callback invoked: ThreadCreated(threadId=0x25382749050)
+[2025-06-10 14:18:17.326 | debug | PId: 27164 | TId: 26876] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25382749050, osThreadId=26876)
+[2025-06-10 14:18:17.326 | debug | PId: 27164 | TId: 26876] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25382749050, osThreadId: 26876, osThreadHandle: 0x00000000000004B0) completed for ProfilerThreadInfoId=5.
+[2025-06-10 14:18:17.327 | debug | PId: 27164 | TId: 11380] Callback invoked: ThreadCreated(threadId=0x25382db1130)
+[2025-06-10 14:18:17.327 | debug | PId: 27164 | TId: 11380] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25382db1130, osThreadId=11380)
+[2025-06-10 14:18:17.327 | debug | PId: 27164 | TId: 11380] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25382db1130, osThreadId: 11380, osThreadHandle: 0x00000000000004C0) completed for ProfilerThreadInfoId=6.
+[2025-06-10 14:18:17.327 | debug | PId: 27164 | TId: 11380] CorProfilerCallback::ThreadNameChanged(threadId=0x25382db1130, name=".NET TP Worker")
+[2025-06-10 14:18:17.327 | debug | PId: 27164 | TId: 11380] Map (11380) to .NET TP Worker
+[2025-06-10 14:18:17.327 | debug | PId: 27164 | TId: 11380] ManagedThreadList::SetThreadName(clrThreadId: 0x25382db1130, pThreadName: ".NET TP Worker") completed for ProfilerThreadInfoId=6.
+[2025-06-10 14:18:17.329 | debug | PId: 27164 | TId: 4428] CorProfilerCallback::ThreadNameChanged(threadId=0x25382db09d0, name=".NET Timer")
+[2025-06-10 14:18:17.329 | debug | PId: 27164 | TId: 4428] Map (0) to .NET Timer
+[2025-06-10 14:18:17.329 | debug | PId: 27164 | TId: 4428] ManagedThreadList::SetThreadName(clrThreadId: 0x25382db09d0, pThreadName: ".NET Timer") completed for ProfilerThreadInfoId=7.
+[2025-06-10 14:18:17.329 | debug | PId: 27164 | TId: 21412] Callback invoked: ThreadCreated(threadId=0x25382db09d0)
+[2025-06-10 14:18:17.329 | debug | PId: 27164 | TId: 21412] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25382db09d0, osThreadId=21412)
+[2025-06-10 14:18:17.329 | debug | PId: 27164 | TId: 21412] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25382db09d0, osThreadId: 21412, osThreadHandle: 0x00000000000004E0) completed for ProfilerThreadInfoId=7.
+[2025-06-10 14:18:17.566 | debug | PId: 27164 | TId: 32676] Event pipe provider: Private.InternalDiagnostics.System.Net.Http
+[2025-06-10 14:18:17.574 | debug | PId: 27164 | TId: 4428] Event pipe provider: System.Net.Http
+[2025-06-10 14:18:17.580 | debug | PId: 27164 | TId: 32676] Event pipe provider: Private.InternalDiagnostics.System.Net.Sockets
+[2025-06-10 14:18:17.602 | debug | PId: 27164 | TId: 32676] CorProfilerCallback::ThreadNameChanged(threadId=0x253801a2250, name=".NET Long Running Task")
+[2025-06-10 14:18:17.602 | debug | PId: 27164 | TId: 32676] Map (0) to .NET Long Running Task
+[2025-06-10 14:18:17.602 | debug | PId: 27164 | TId: 32676] ManagedThreadList::SetThreadName(clrThreadId: 0x253801a2250, pThreadName: ".NET Long Running Task") completed for ProfilerThreadInfoId=8.
+[2025-06-10 14:18:17.602 | debug | PId: 27164 | TId: 33560] Callback invoked: ThreadCreated(threadId=0x253801a2250)
+[2025-06-10 14:18:17.602 | debug | PId: 27164 | TId: 33560] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x253801a2250, osThreadId=33560)
+[2025-06-10 14:18:17.602 | debug | PId: 27164 | TId: 33560] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x253801a2250, osThreadId: 33560, osThreadHandle: 0x000000000000068C) completed for ProfilerThreadInfoId=8.
+[2025-06-10 14:18:17.609 | debug | PId: 27164 | TId: 31920] Callback invoked: ThreadCreated(threadId=0x253832db4d0)
+[2025-06-10 14:18:17.609 | debug | PId: 27164 | TId: 31920] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x253832db4d0, osThreadId=31920)
+[2025-06-10 14:18:17.609 | debug | PId: 27164 | TId: 31920] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x253832db4d0, osThreadId: 31920, osThreadHandle: 0x00000000000006B0) completed for ProfilerThreadInfoId=9.
+[2025-06-10 14:18:17.609 | debug | PId: 27164 | TId: 31920] CorProfilerCallback::ThreadNameChanged(threadId=0x253832db4d0, name=".NET TP Worker")
+[2025-06-10 14:18:17.609 | debug | PId: 27164 | TId: 31920] Map (31920) to .NET TP Worker
+[2025-06-10 14:18:17.609 | debug | PId: 27164 | TId: 31920] ManagedThreadList::SetThreadName(clrThreadId: 0x253832db4d0, pThreadName: ".NET TP Worker") completed for ProfilerThreadInfoId=9.
+[2025-06-10 14:18:17.612 | debug | PId: 27164 | TId: 32676] CorProfilerCallback::ThreadNameChanged(threadId=0x253832d5da0, name=".NET Long Running Task")
+[2025-06-10 14:18:17.612 | debug | PId: 27164 | TId: 32676] Map (0) to .NET Long Running Task
+[2025-06-10 14:18:17.612 | debug | PId: 27164 | TId: 32676] ManagedThreadList::SetThreadName(clrThreadId: 0x253832d5da0, pThreadName: ".NET Long Running Task") completed for ProfilerThreadInfoId=a.
+[2025-06-10 14:18:17.613 | debug | PId: 27164 | TId: 30648] Callback invoked: ThreadCreated(threadId=0x253832d5da0)
+[2025-06-10 14:18:17.613 | debug | PId: 27164 | TId: 30648] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x253832d5da0, osThreadId=30648)
+[2025-06-10 14:18:17.613 | debug | PId: 27164 | TId: 30648] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x253832d5da0, osThreadId: 30648, osThreadHandle: 0x00000000000006C4) completed for ProfilerThreadInfoId=10.
+[2025-06-10 14:18:17.615 | debug | PId: 27164 | TId: 4428] Event pipe provider: System.Diagnostics.Metrics
+[2025-06-10 14:18:17.617 | debug | PId: 27164 | TId: 4428] Event pipe provider: Microsoft-Diagnostics-DiagnosticSource
+[2025-06-10 14:18:17.622 | debug | PId: 27164 | TId: 32676] CorProfilerCallback::ThreadNameChanged(threadId=0x253830808b0, name=".NET Long Running Task")
+[2025-06-10 14:18:17.622 | debug | PId: 27164 | TId: 32676] Map (0) to .NET Long Running Task
+[2025-06-10 14:18:17.622 | debug | PId: 27164 | TId: 32676] ManagedThreadList::SetThreadName(clrThreadId: 0x253830808b0, pThreadName: ".NET Long Running Task") completed for ProfilerThreadInfoId=b.
+[2025-06-10 14:18:17.623 | debug | PId: 27164 | TId: 21100] Callback invoked: ThreadCreated(threadId=0x253830808b0)
+[2025-06-10 14:18:17.623 | debug | PId: 27164 | TId: 21100] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x253830808b0, osThreadId=21100)
+[2025-06-10 14:18:17.623 | debug | PId: 27164 | TId: 21100] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x253830808b0, osThreadId: 21100, osThreadHandle: 0x0000000000000624) completed for ProfilerThreadInfoId=11.
+[2025-06-10 14:18:17.628 | debug | PId: 27164 | TId: 11380] Event pipe provider: System.Net.Sockets
+[2025-06-10 14:18:17.630 | debug | PId: 27164 | TId: 11380] CorProfilerCallback::ThreadNameChanged(threadId=0x253834acff0, name=".NET ThreadPool IO")
+[2025-06-10 14:18:17.630 | debug | PId: 27164 | TId: 11380] Map (0) to .NET ThreadPool IO
+[2025-06-10 14:18:17.630 | debug | PId: 27164 | TId: 11380] ManagedThreadList::SetThreadName(clrThreadId: 0x253834acff0, pThreadName: ".NET ThreadPool IO") completed for ProfilerThreadInfoId=c.
+[2025-06-10 14:18:17.630 | debug | PId: 27164 | TId: 27772] Callback invoked: ThreadCreated(threadId=0x253834acff0)
+[2025-06-10 14:18:17.630 | debug | PId: 27164 | TId: 27772] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x253834acff0, osThreadId=27772)
+[2025-06-10 14:18:17.630 | debug | PId: 27164 | TId: 11380] CorProfilerCallback::ThreadNameChanged(threadId=0x253835adf70, name=".NET ThreadPool IO")
+[2025-06-10 14:18:17.630 | debug | PId: 27164 | TId: 11380] Map (0) to .NET ThreadPool IO
+[2025-06-10 14:18:17.630 | debug | PId: 27164 | TId: 11380] ManagedThreadList::SetThreadName(clrThreadId: 0x253835adf70, pThreadName: ".NET ThreadPool IO") completed for ProfilerThreadInfoId=d.
+[2025-06-10 14:18:17.630 | debug | PId: 27164 | TId: 27772] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x253834acff0, osThreadId: 27772, osThreadHandle: 0x0000000000000744) completed for ProfilerThreadInfoId=12.
+[2025-06-10 14:18:17.631 | debug | PId: 27164 | TId: 28484] Callback invoked: ThreadCreated(threadId=0x253835adf70)
+[2025-06-10 14:18:17.631 | debug | PId: 27164 | TId: 28484] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x253835adf70, osThreadId=28484)
+[2025-06-10 14:18:17.631 | debug | PId: 27164 | TId: 28484] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x253835adf70, osThreadId: 28484, osThreadHandle: 0x0000000000000728) completed for ProfilerThreadInfoId=13.
+[2025-06-10 14:18:17.632 | debug | PId: 27164 | TId: 24672] Callback invoked: ThreadCreated(threadId=0x253835afad0)
+[2025-06-10 14:18:17.632 | debug | PId: 27164 | TId: 24672] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x253835afad0, osThreadId=24672)
+[2025-06-10 14:18:17.632 | debug | PId: 27164 | TId: 24672] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x253835afad0, osThreadId: 24672, osThreadHandle: 0x0000000000000718) completed for ProfilerThreadInfoId=14.
+[2025-06-10 14:18:17.632 | debug | PId: 27164 | TId: 24672] CorProfilerCallback::ThreadNameChanged(threadId=0x253835afad0, name=".NET TP Worker")
+[2025-06-10 14:18:17.632 | debug | PId: 27164 | TId: 24672] Map (24672) to .NET TP Worker
+[2025-06-10 14:18:17.632 | debug | PId: 27164 | TId: 24672] ManagedThreadList::SetThreadName(clrThreadId: 0x253835afad0, pThreadName: ".NET TP Worker") completed for ProfilerThreadInfoId=e.
+[2025-06-10 14:18:17.632 | debug | PId: 27164 | TId: 28668] Callback invoked: ThreadCreated(threadId=0x253835b1460)
+[2025-06-10 14:18:17.632 | debug | PId: 27164 | TId: 28668] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x253835b1460, osThreadId=28668)
+[2025-06-10 14:18:17.632 | debug | PId: 27164 | TId: 28668] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x253835b1460, osThreadId: 28668, osThreadHandle: 0x000000000000077C) completed for ProfilerThreadInfoId=15.
+[2025-06-10 14:18:17.632 | debug | PId: 27164 | TId: 28668] CorProfilerCallback::ThreadNameChanged(threadId=0x253835b1460, name=".NET TP Worker")
+[2025-06-10 14:18:17.632 | debug | PId: 27164 | TId: 28668] Map (28668) to .NET TP Worker
+[2025-06-10 14:18:17.632 | debug | PId: 27164 | TId: 28668] ManagedThreadList::SetThreadName(clrThreadId: 0x253835b1460, pThreadName: ".NET TP Worker") completed for ProfilerThreadInfoId=f.
+[2025-06-10 14:18:17.660 | debug | PId: 27164 | TId: 23724] Callback invoked: ThreadCreated(threadId=0x25383667f30)
+[2025-06-10 14:18:17.660 | debug | PId: 27164 | TId: 23724] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383667f30, osThreadId=23724)
+[2025-06-10 14:18:17.660 | debug | PId: 27164 | TId: 23724] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383667f30, osThreadId: 23724, osThreadHandle: 0x0000000000000774) completed for ProfilerThreadInfoId=16.
+[2025-06-10 14:18:17.660 | debug | PId: 27164 | TId: 23724] CorProfilerCallback::ThreadNameChanged(threadId=0x25383667f30, name=".NET TP Worker")
+[2025-06-10 14:18:17.660 | debug | PId: 27164 | TId: 23724] Map (23724) to .NET TP Worker
+[2025-06-10 14:18:17.660 | debug | PId: 27164 | TId: 23724] ManagedThreadList::SetThreadName(clrThreadId: 0x25383667f30, pThreadName: ".NET TP Worker") completed for ProfilerThreadInfoId=10.
+[2025-06-10 14:18:17.662 | debug | PId: 27164 | TId: 23188] Callback invoked: ThreadCreated(threadId=0x25383a8ddd0)
+[2025-06-10 14:18:17.662 | debug | PId: 27164 | TId: 23188] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383a8ddd0, osThreadId=23188)
+[2025-06-10 14:18:17.662 | debug | PId: 27164 | TId: 23188] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383a8ddd0, osThreadId: 23188, osThreadHandle: 0x0000000000000798) completed for ProfilerThreadInfoId=17.
+[2025-06-10 14:18:17.662 | debug | PId: 27164 | TId: 23188] CorProfilerCallback::ThreadNameChanged(threadId=0x25383a8ddd0, name=".NET TP Worker")
+[2025-06-10 14:18:17.662 | debug | PId: 27164 | TId: 23188] Map (23188) to .NET TP Worker
+[2025-06-10 14:18:17.662 | debug | PId: 27164 | TId: 23188] ManagedThreadList::SetThreadName(clrThreadId: 0x25383a8ddd0, pThreadName: ".NET TP Worker") completed for ProfilerThreadInfoId=11.
+[2025-06-10 14:18:17.677 | debug | PId: 27164 | TId: 31920] Event pipe provider: System.Collections.Concurrent.ConcurrentCollectionsEventSource
+[2025-06-10 14:18:17.714 | debug | PId: 27164 | TId: 32376] Callback invoked: ThreadCreated(threadId=0x25383d6d640)
+[2025-06-10 14:18:17.714 | debug | PId: 27164 | TId: 32376] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6d640, osThreadId=32376)
+[2025-06-10 14:18:17.714 | debug | PId: 27164 | TId: 32376] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6d640, osThreadId: 32376, osThreadHandle: 0x0000000000000810) completed for ProfilerThreadInfoId=18.
+[2025-06-10 14:18:17.824 | debug | PId: 27164 | TId: 32676] CorProfilerCallback::ThreadNameChanged(threadId=0x25383d6b060, name=".NET System Events")
+[2025-06-10 14:18:17.824 | debug | PId: 27164 | TId: 32676] Map (0) to .NET System Events
+[2025-06-10 14:18:17.824 | debug | PId: 27164 | TId: 32676] ManagedThreadList::SetThreadName(clrThreadId: 0x25383d6b060, pThreadName: ".NET System Events") completed for ProfilerThreadInfoId=13.
+[2025-06-10 14:18:17.825 | debug | PId: 27164 | TId: 15684] Callback invoked: ThreadCreated(threadId=0x25383d6b060)
+[2025-06-10 14:18:17.825 | debug | PId: 27164 | TId: 15684] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6b060, osThreadId=15684)
+[2025-06-10 14:18:17.825 | debug | PId: 27164 | TId: 15684] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6b060, osThreadId: 15684, osThreadHandle: 0x00000000000008B0) completed for ProfilerThreadInfoId=19.
+[2025-06-10 14:18:28.571 | debug | PId: 27164 | TId: 31920] Event pipe provider: System.Net.NameResolution
+[2025-06-10 14:18:28.639 | debug | PId: 27164 | TId: 15544] Callback invoked: ThreadCreated(threadId=0x25383d6b6b0)
+[2025-06-10 14:18:28.639 | debug | PId: 27164 | TId: 15544] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6b6b0, osThreadId=15544)
+[2025-06-10 14:18:28.639 | debug | PId: 27164 | TId: 15544] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6b6b0, osThreadId: 15544, osThreadHandle: 0x0000000000000AB4) completed for ProfilerThreadInfoId=20.
+[2025-06-10 14:18:28.643 | debug | PId: 27164 | TId: 31920] Event pipe provider: Private.InternalDiagnostics.System.Net.Security
+[2025-06-10 14:18:28.644 | debug | PId: 27164 | TId: 31920] Event pipe provider: System.Net.Security
+[2025-06-10 14:18:29.303 | debug | PId: 27164 | TId: 32676] Event pipe provider: System.Data.DataCommonEventSource
+[2025-06-10 14:18:29.318 | debug | PId: 27164 | TId: 32676] Event pipe provider: Npgsql
+[2025-06-10 14:18:29.319 | debug | PId: 27164 | TId: 32676] Event pipe provider: System.Transactions.TransactionsEventSource
+[2025-06-10 14:18:29.499 | debug | PId: 27164 | TId: 32676] Event pipe provider: Npgsql.Sql
+[2025-06-10 14:19:07.097 | debug | PId: 27164 | TId: 29768] Callback invoked: ThreadDestroyed(threadId=0x253a2820260)
+[2025-06-10 14:19:07.097 | debug | PId: 27164 | TId: 29768] Removing thread 253a2820260 from the trace context threads list.
+[2025-06-10 14:19:07.097 | debug | PId: 27164 | TId: 29768] ManagedThreadList: thread 0x253a2820260 cannot be unregister because not in the list
+[2025-06-10 14:19:07.097 | debug | PId: 27164 | TId: 29768] Removing thread 253a2820260 from the main managed thread list.
+[2025-06-10 14:19:07.383 | debug | PId: 27164 | TId: 30876] Callback invoked: ThreadCreated(threadId=0x25383d6cff0)
+[2025-06-10 14:19:07.383 | debug | PId: 27164 | TId: 30876] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6cff0, osThreadId=30876)
+[2025-06-10 14:19:07.383 | debug | PId: 27164 | TId: 30876] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6cff0, osThreadId: 30876, osThreadHandle: 0x0000000000000344) completed for ProfilerThreadInfoId=21.
+[2025-06-10 14:19:12.097 | debug | PId: 27164 | TId: 30876] Callback invoked: ThreadDestroyed(threadId=0x25383d6cff0)
+[2025-06-10 14:19:12.097 | debug | PId: 27164 | TId: 30876] Removing thread 25383d6cff0 from the trace context threads list.
+[2025-06-10 14:19:12.097 | debug | PId: 27164 | TId: 30876] ManagedThreadList: thread 0x25383d6cff0 cannot be unregister because not in the list
+[2025-06-10 14:19:12.097 | debug | PId: 27164 | TId: 30876] Removing thread 25383d6cff0 from the main managed thread list.
+[2025-06-10 14:19:13.052 | debug | PId: 27164 | TId: 32924] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:19:13.052 | debug | PId: 27164 | TId: 32924] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=32924)
+[2025-06-10 14:19:13.052 | debug | PId: 27164 | TId: 32924] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 32924, osThreadHandle: 0x0000000000000344) completed for ProfilerThreadInfoId=22.
+[2025-06-10 14:19:17.130 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:19:17.130 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 3
+[2025-06-10 14:19:17.130 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 3
+[2025-06-10 14:19:17.130 | debug | PId: 27164 | TId: 20832] ContentionProvider : 1
+[2025-06-10 14:19:17.130 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 3
+[2025-06-10 14:19:17.130 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 170
+[2025-06-10 14:19:17.130 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 20191
+[2025-06-10 14:19:17.517 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      468 ms [   14 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |       62 ms [  1.8 %]  DD_worker
+ 20832 |       31 ms [ 0.91 %]  DD_exporter
+ 18072 |      280 ms [  8.2 %]  DD_StackSampler
+ 32376 |       15 ms [ 0.44 %] DD_rejit
+ 32128 |        0 ms [    0 %] .NET Finalizer
+  4428 |       62 ms [  1.8 %]  .NET TP Worker
+ 26876 |        0 ms [    0 %] .NET TP Gate
+ 11380 |       15 ms [ 0.44 %]  .NET TP Worker
+ 21412 |        0 ms [    0 %] .NET Timer
+ 24460 |        0 ms [    0 %] 
+  4512 |        0 ms [    0 %] 
+ 11272 |        0 ms [    0 %] 
+ 33560 |       15 ms [ 0.44 %] .NET Long Running Task
+ 31920 |     1764 ms [   52 %]  .NET TP Worker
+ 30648 |       15 ms [ 0.44 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 32260 |        0 ms [    0 %] 
+ 21100 |       15 ms [ 0.44 %] .NET Long Running Task
+ 27772 |        0 ms [    0 %] .NET ThreadPool IO
+ 28484 |        0 ms [    0 %] .NET ThreadPool IO
+ 24672 |       15 ms [ 0.44 %]  .NET TP Worker
+ 28668 |        0 ms [    0 %]  .NET TP Worker
+ 23724 |        0 ms [    0 %]  .NET TP Worker
+ 23188 |       30 ms [ 0.88 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.44 %] 
+ 15684 |        0 ms [    0 %] .NET System Events
+ 15544 |        0 ms [    0 %] 
+ 16712 |        0 ms [    0 %] 
+ 31628 |        0 ms [    0 %] 
+ 32924 |        0 ms [    0 %] .NET Tiered Compilation Worker
+ 34448 |        0 ms [    0 %] tokio-runtime-worker
+ 32956 |        0 ms [    0 %] 
+
+
+[2025-06-10 14:19:27.162 | debug | PId: 27164 | TId: 32924] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:19:27.162 | debug | PId: 27164 | TId: 32924] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:19:27.162 | debug | PId: 27164 | TId: 32924] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:19:27.162 | debug | PId: 27164 | TId: 32924] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:19:27.666 | debug | PId: 27164 | TId: 31056] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:19:27.666 | debug | PId: 27164 | TId: 31056] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=31056)
+[2025-06-10 14:19:27.666 | debug | PId: 27164 | TId: 31056] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 31056, osThreadHandle: 0x0000000000000E34) completed for ProfilerThreadInfoId=23.
+[2025-06-10 14:19:32.179 | debug | PId: 27164 | TId: 31056] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:19:32.179 | debug | PId: 27164 | TId: 31056] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:19:32.179 | debug | PId: 27164 | TId: 31056] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:19:32.179 | debug | PId: 27164 | TId: 31056] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:19:32.664 | debug | PId: 27164 | TId: 32180] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:19:32.664 | debug | PId: 27164 | TId: 32180] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=32180)
+[2025-06-10 14:19:32.664 | debug | PId: 27164 | TId: 32180] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 32180, osThreadHandle: 0x0000000000000E20) completed for ProfilerThreadInfoId=24.
+[2025-06-10 14:19:42.200 | debug | PId: 27164 | TId: 32180] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:19:42.200 | debug | PId: 27164 | TId: 32180] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:19:42.200 | debug | PId: 27164 | TId: 32180] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:19:42.200 | debug | PId: 27164 | TId: 32180] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:19:43.201 | debug | PId: 27164 | TId: 29300] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:19:43.201 | debug | PId: 27164 | TId: 29300] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=29300)
+[2025-06-10 14:19:43.201 | debug | PId: 27164 | TId: 29300] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 29300, osThreadHandle: 0x0000000000000F50) completed for ProfilerThreadInfoId=25.
+[2025-06-10 14:19:47.208 | debug | PId: 27164 | TId: 29300] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:19:47.208 | debug | PId: 27164 | TId: 29300] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:19:47.208 | debug | PId: 27164 | TId: 29300] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:19:47.208 | debug | PId: 27164 | TId: 29300] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:19:47.428 | debug | PId: 27164 | TId: 33708] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:19:47.428 | debug | PId: 27164 | TId: 33708] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=33708)
+[2025-06-10 14:19:47.428 | debug | PId: 27164 | TId: 33708] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 33708, osThreadHandle: 0x0000000000000E00) completed for ProfilerThreadInfoId=26.
+[2025-06-10 14:19:52.234 | debug | PId: 27164 | TId: 33708] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:19:52.234 | debug | PId: 27164 | TId: 33708] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:19:52.234 | debug | PId: 27164 | TId: 33708] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:19:52.234 | debug | PId: 27164 | TId: 33708] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:19:53.230 | debug | PId: 27164 | TId: 33888] Callback invoked: ThreadCreated(threadId=0x25383d6dc90)
+[2025-06-10 14:19:53.230 | debug | PId: 27164 | TId: 33888] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6dc90, osThreadId=33888)
+[2025-06-10 14:19:53.230 | debug | PId: 27164 | TId: 33888] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6dc90, osThreadId: 33888, osThreadHandle: 0x0000000000000F5C) completed for ProfilerThreadInfoId=27.
+[2025-06-10 14:19:57.357 | debug | PId: 27164 | TId: 33888] Callback invoked: ThreadDestroyed(threadId=0x25383d6dc90)
+[2025-06-10 14:19:57.357 | debug | PId: 27164 | TId: 33888] Removing thread 25383d6dc90 from the trace context threads list.
+[2025-06-10 14:19:57.357 | debug | PId: 27164 | TId: 33888] ManagedThreadList: thread 0x25383d6dc90 cannot be unregister because not in the list
+[2025-06-10 14:19:57.357 | debug | PId: 27164 | TId: 33888] Removing thread 25383d6dc90 from the main managed thread list.
+[2025-06-10 14:19:57.688 | debug | PId: 27164 | TId: 18156] Callback invoked: ThreadCreated(threadId=0x25383d6dc90)
+[2025-06-10 14:19:57.688 | debug | PId: 27164 | TId: 18156] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6dc90, osThreadId=18156)
+[2025-06-10 14:19:57.688 | debug | PId: 27164 | TId: 18156] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6dc90, osThreadId: 18156, osThreadHandle: 0x0000000000000FEC) completed for ProfilerThreadInfoId=28.
+[2025-06-10 14:20:02.901 | debug | PId: 27164 | TId: 18156] Callback invoked: ThreadDestroyed(threadId=0x25383d6dc90)
+[2025-06-10 14:20:02.901 | debug | PId: 27164 | TId: 18156] Removing thread 25383d6dc90 from the trace context threads list.
+[2025-06-10 14:20:02.901 | debug | PId: 27164 | TId: 18156] ManagedThreadList: thread 0x25383d6dc90 cannot be unregister because not in the list
+[2025-06-10 14:20:02.901 | debug | PId: 27164 | TId: 18156] Removing thread 25383d6dc90 from the main managed thread list.
+[2025-06-10 14:20:03.259 | debug | PId: 27164 | TId: 24412] Callback invoked: ThreadCreated(threadId=0x25383d6cff0)
+[2025-06-10 14:20:03.259 | debug | PId: 27164 | TId: 24412] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6cff0, osThreadId=24412)
+[2025-06-10 14:20:03.259 | debug | PId: 27164 | TId: 24412] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6cff0, osThreadId: 24412, osThreadHandle: 0x0000000000000D44) completed for ProfilerThreadInfoId=29.
+[2025-06-10 14:20:07.316 | debug | PId: 27164 | TId: 24412] Callback invoked: ThreadDestroyed(threadId=0x25383d6cff0)
+[2025-06-10 14:20:07.316 | debug | PId: 27164 | TId: 24412] Removing thread 25383d6cff0 from the trace context threads list.
+[2025-06-10 14:20:07.316 | debug | PId: 27164 | TId: 24412] ManagedThreadList: thread 0x25383d6cff0 cannot be unregister because not in the list
+[2025-06-10 14:20:07.316 | debug | PId: 27164 | TId: 24412] Removing thread 25383d6cff0 from the main managed thread list.
+[2025-06-10 14:20:07.684 | debug | PId: 27164 | TId: 20404] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:20:07.684 | debug | PId: 27164 | TId: 20404] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=20404)
+[2025-06-10 14:20:07.684 | debug | PId: 27164 | TId: 20404] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 20404, osThreadHandle: 0x0000000000000D1C) completed for ProfilerThreadInfoId=30.
+[2025-06-10 14:20:17.354 | debug | PId: 27164 | TId: 20404] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:20:17.354 | debug | PId: 27164 | TId: 20404] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:20:17.354 | debug | PId: 27164 | TId: 20404] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:20:17.354 | debug | PId: 27164 | TId: 20404] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:20:17.534 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:20:17.534 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 1
+[2025-06-10 14:20:17.534 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 1
+[2025-06-10 14:20:17.534 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:20:17.534 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:20:17.534 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 18
+[2025-06-10 14:20:17.534 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19891
+[2025-06-10 14:20:17.650 | debug | PId: 27164 | TId: 29004] Callback invoked: ThreadCreated(threadId=0x25383d6cff0)
+[2025-06-10 14:20:17.650 | debug | PId: 27164 | TId: 29004] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6cff0, osThreadId=29004)
+[2025-06-10 14:20:17.650 | debug | PId: 27164 | TId: 29004] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6cff0, osThreadId: 29004, osThreadHandle: 0x0000000000000324) completed for ProfilerThreadInfoId=31.
+[2025-06-10 14:20:17.899 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      468 ms [   11 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |       93 ms [  2.3 %]  DD_worker
+ 20832 |       62 ms [  1.5 %]  DD_exporter
+ 18072 |      562 ms [   14 %]  DD_StackSampler
+ 32376 |       15 ms [ 0.37 %] DD_rejit
+ 32128 |        0 ms [    0 %] .NET Finalizer
+  4428 |       62 ms [  1.5 %]  .NET TP Worker
+ 26876 |        0 ms [    0 %] .NET TP Gate
+ 11380 |       15 ms [ 0.37 %]  .NET TP Worker
+ 21412 |        0 ms [    0 %] .NET Timer
+ 24460 |        0 ms [    0 %] 
+  4512 |        0 ms [    0 %] 
+ 11272 |        0 ms [    0 %] 
+ 33560 |       15 ms [ 0.37 %] .NET Long Running Task
+ 31920 |     1796 ms [   44 %]  .NET TP Worker
+ 30648 |       15 ms [ 0.37 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 32260 |        0 ms [    0 %] 
+ 21100 |       15 ms [ 0.37 %] .NET Long Running Task
+ 27772 |       15 ms [ 0.37 %] .NET ThreadPool IO
+ 28484 |        0 ms [    0 %] .NET ThreadPool IO
+ 24672 |       15 ms [ 0.37 %]  .NET TP Worker
+ 28668 |        0 ms [    0 %]  .NET TP Worker
+ 23724 |        0 ms [    0 %]  .NET TP Worker
+ 23188 |       46 ms [  1.1 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.37 %] 
+ 15684 |        0 ms [    0 %] .NET System Events
+ 15544 |        0 ms [    0 %] 
+ 16712 |        0 ms [    0 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 29296 |        0 ms [    0 %] tokio-runtime-worker
+ 29004 |       15 ms [ 0.37 %] .NET Tiered Compilation Worker
+
+
+[2025-06-10 14:20:22.346 | debug | PId: 27164 | TId: 29004] Callback invoked: ThreadDestroyed(threadId=0x25383d6cff0)
+[2025-06-10 14:20:22.346 | debug | PId: 27164 | TId: 29004] Removing thread 25383d6cff0 from the trace context threads list.
+[2025-06-10 14:20:22.346 | debug | PId: 27164 | TId: 29004] ManagedThreadList: thread 0x25383d6cff0 cannot be unregister because not in the list
+[2025-06-10 14:20:22.346 | debug | PId: 27164 | TId: 29004] Removing thread 25383d6cff0 from the main managed thread list.
+[2025-06-10 14:20:23.353 | debug | PId: 27164 | TId: 19392] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:20:23.353 | debug | PId: 27164 | TId: 19392] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=19392)
+[2025-06-10 14:20:23.353 | debug | PId: 27164 | TId: 19392] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 19392, osThreadHandle: 0x0000000000000F24) completed for ProfilerThreadInfoId=32.
+[2025-06-10 14:20:32.382 | debug | PId: 27164 | TId: 19392] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:20:32.382 | debug | PId: 27164 | TId: 19392] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:20:32.382 | debug | PId: 27164 | TId: 19392] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:20:32.382 | debug | PId: 27164 | TId: 19392] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:20:32.665 | debug | PId: 27164 | TId: 30228] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:20:32.665 | debug | PId: 27164 | TId: 30228] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=30228)
+[2025-06-10 14:20:32.665 | debug | PId: 27164 | TId: 30228] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 30228, osThreadHandle: 0x0000000000000F24) completed for ProfilerThreadInfoId=33.
+[2025-06-10 14:20:37.389 | debug | PId: 27164 | TId: 30228] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:20:37.389 | debug | PId: 27164 | TId: 30228] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:20:37.389 | debug | PId: 27164 | TId: 30228] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:20:37.389 | debug | PId: 27164 | TId: 30228] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:20:37.704 | debug | PId: 27164 | TId: 28512] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:20:37.704 | debug | PId: 27164 | TId: 28512] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=28512)
+[2025-06-10 14:20:37.704 | debug | PId: 27164 | TId: 28512] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 28512, osThreadHandle: 0x0000000000000F24) completed for ProfilerThreadInfoId=34.
+[2025-06-10 14:20:37.799 | debug | PId: 27164 | TId: 24672] Callback invoked: ThreadDestroyed(threadId=0x253835afad0)
+[2025-06-10 14:20:37.799 | debug | PId: 27164 | TId: 24672] Removing thread 253835afad0 from the trace context threads list.
+[2025-06-10 14:20:37.799 | debug | PId: 27164 | TId: 24672] ManagedThreadList: thread 0x253835afad0 cannot be unregister because not in the list
+[2025-06-10 14:20:37.799 | debug | PId: 27164 | TId: 24672] Removing thread 253835afad0 from the main managed thread list.
+[2025-06-10 14:20:42.418 | debug | PId: 27164 | TId: 28512] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:20:42.418 | debug | PId: 27164 | TId: 28512] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:20:42.418 | debug | PId: 27164 | TId: 28512] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:20:42.418 | debug | PId: 27164 | TId: 28512] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:20:43.421 | debug | PId: 27164 | TId: 18800] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:20:43.421 | debug | PId: 27164 | TId: 18800] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=18800)
+[2025-06-10 14:20:43.421 | debug | PId: 27164 | TId: 18800] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 18800, osThreadHandle: 0x0000000000000F38) completed for ProfilerThreadInfoId=35.
+[2025-06-10 14:20:47.437 | debug | PId: 27164 | TId: 18800] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:20:47.437 | debug | PId: 27164 | TId: 18800] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:20:47.437 | debug | PId: 27164 | TId: 18800] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:20:47.437 | debug | PId: 27164 | TId: 18800] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:20:47.469 | debug | PId: 27164 | TId: 27228] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:20:47.469 | debug | PId: 27164 | TId: 27228] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=27228)
+[2025-06-10 14:20:47.469 | debug | PId: 27164 | TId: 27228] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 27228, osThreadHandle: 0x0000000000000FA8) completed for ProfilerThreadInfoId=36.
+[2025-06-10 14:20:52.441 | debug | PId: 27164 | TId: 27228] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:20:52.441 | debug | PId: 27164 | TId: 27228] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:20:52.442 | debug | PId: 27164 | TId: 27228] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:20:52.442 | debug | PId: 27164 | TId: 27228] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:20:52.771 | debug | PId: 27164 | TId: 17268] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:20:52.771 | debug | PId: 27164 | TId: 17268] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=17268)
+[2025-06-10 14:20:52.771 | debug | PId: 27164 | TId: 17268] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 17268, osThreadHandle: 0x000000000000053C) completed for ProfilerThreadInfoId=37.
+[2025-06-10 14:20:57.580 | debug | PId: 27164 | TId: 17268] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:20:57.580 | debug | PId: 27164 | TId: 17268] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:20:57.580 | debug | PId: 27164 | TId: 17268] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:20:57.580 | debug | PId: 27164 | TId: 17268] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:20:57.723 | debug | PId: 27164 | TId: 32744] Callback invoked: ThreadCreated(threadId=0x25383d6cff0)
+[2025-06-10 14:20:57.723 | debug | PId: 27164 | TId: 32744] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6cff0, osThreadId=32744)
+[2025-06-10 14:20:57.723 | debug | PId: 27164 | TId: 32744] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6cff0, osThreadId: 32744, osThreadHandle: 0x0000000000000548) completed for ProfilerThreadInfoId=38.
+[2025-06-10 14:21:02.471 | debug | PId: 27164 | TId: 32744] Callback invoked: ThreadDestroyed(threadId=0x25383d6cff0)
+[2025-06-10 14:21:02.471 | debug | PId: 27164 | TId: 32744] Removing thread 25383d6cff0 from the trace context threads list.
+[2025-06-10 14:21:02.471 | debug | PId: 27164 | TId: 32744] ManagedThreadList: thread 0x25383d6cff0 cannot be unregister because not in the list
+[2025-06-10 14:21:02.471 | debug | PId: 27164 | TId: 32744] Removing thread 25383d6cff0 from the main managed thread list.
+[2025-06-10 14:21:03.469 | debug | PId: 27164 | TId: 29360] Callback invoked: ThreadCreated(threadId=0x25383d6cff0)
+[2025-06-10 14:21:03.469 | debug | PId: 27164 | TId: 29360] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6cff0, osThreadId=29360)
+[2025-06-10 14:21:03.469 | debug | PId: 27164 | TId: 29360] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6cff0, osThreadId: 29360, osThreadHandle: 0x0000000000000E3C) completed for ProfilerThreadInfoId=39.
+[2025-06-10 14:21:13.503 | debug | PId: 27164 | TId: 29360] Callback invoked: ThreadDestroyed(threadId=0x25383d6cff0)
+[2025-06-10 14:21:13.503 | debug | PId: 27164 | TId: 29360] Removing thread 25383d6cff0 from the trace context threads list.
+[2025-06-10 14:21:13.503 | debug | PId: 27164 | TId: 29360] ManagedThreadList: thread 0x25383d6cff0 cannot be unregister because not in the list
+[2025-06-10 14:21:13.503 | debug | PId: 27164 | TId: 29360] Removing thread 25383d6cff0 from the main managed thread list.
+[2025-06-10 14:21:13.505 | debug | PId: 27164 | TId: 23528] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:21:13.505 | debug | PId: 27164 | TId: 23528] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=23528)
+[2025-06-10 14:21:13.505 | debug | PId: 27164 | TId: 23528] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 23528, osThreadHandle: 0x0000000000000EF0) completed for ProfilerThreadInfoId=40.
+[2025-06-10 14:21:17.506 | debug | PId: 27164 | TId: 23528] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:21:17.506 | debug | PId: 27164 | TId: 23528] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:21:17.506 | debug | PId: 27164 | TId: 23528] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:21:17.506 | debug | PId: 27164 | TId: 23528] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:21:17.658 | debug | PId: 27164 | TId: 10176] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:21:17.658 | debug | PId: 27164 | TId: 10176] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=10176)
+[2025-06-10 14:21:17.658 | debug | PId: 27164 | TId: 10176] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 10176, osThreadHandle: 0x0000000000000F98) completed for ProfilerThreadInfoId=41.
+[2025-06-10 14:21:17.904 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:21:17.904 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:21:17.904 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:21:17.904 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:21:17.904 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:21:17.904 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 12
+[2025-06-10 14:21:17.904 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 18626
+[2025-06-10 14:21:18.251 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      468 ms [   10 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      203 ms [  4.4 %]  DD_worker
+ 20832 |       93 ms [    2 %]  DD_exporter
+ 18072 |      780 ms [   17 %]  DD_StackSampler
+ 32376 |       46 ms [ 0.99 %] DD_rejit
+ 32128 |        0 ms [    0 %] .NET Finalizer
+  4428 |       93 ms [    2 %]  .NET TP Worker
+ 26876 |        0 ms [    0 %] .NET TP Gate
+ 11380 |       15 ms [ 0.32 %]  .NET TP Worker
+ 21412 |       31 ms [ 0.67 %] .NET Timer
+ 11272 |        0 ms [    0 %] 
+ 33560 |       15 ms [ 0.32 %] .NET Long Running Task
+ 31920 |     1811 ms [   39 %]  .NET TP Worker
+ 30648 |       15 ms [ 0.32 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |       15 ms [ 0.32 %] .NET Long Running Task
+ 27772 |       31 ms [ 0.67 %] .NET ThreadPool IO
+ 28484 |        0 ms [    0 %] .NET ThreadPool IO
+ 28668 |        0 ms [    0 %]  .NET TP Worker
+ 23724 |       15 ms [ 0.32 %]  .NET TP Worker
+ 23188 |       61 ms [  1.3 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.32 %] 
+ 15684 |       15 ms [ 0.32 %] .NET System Events
+ 15544 |        0 ms [    0 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+  8704 |        0 ms [    0 %] 
+ 10176 |        0 ms [    0 %] .NET Tiered Compilation Worker
+  6148 |       15 ms [ 0.32 %] tokio-runtime-worker
+
+
+[2025-06-10 14:21:22.532 | debug | PId: 27164 | TId: 10176] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:21:22.532 | debug | PId: 27164 | TId: 10176] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:21:22.532 | debug | PId: 27164 | TId: 10176] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:21:22.532 | debug | PId: 27164 | TId: 10176] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:21:33.555 | debug | PId: 27164 | TId: 20348] Callback invoked: ThreadCreated(threadId=0x25383d6cff0)
+[2025-06-10 14:21:33.555 | debug | PId: 27164 | TId: 20348] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6cff0, osThreadId=20348)
+[2025-06-10 14:21:33.555 | debug | PId: 27164 | TId: 20348] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6cff0, osThreadId: 20348, osThreadHandle: 0x0000000000000E7C) completed for ProfilerThreadInfoId=42.
+[2025-06-10 14:21:37.564 | debug | PId: 27164 | TId: 20348] Callback invoked: ThreadDestroyed(threadId=0x25383d6cff0)
+[2025-06-10 14:21:37.564 | debug | PId: 27164 | TId: 20348] Removing thread 25383d6cff0 from the trace context threads list.
+[2025-06-10 14:21:37.564 | debug | PId: 27164 | TId: 20348] ManagedThreadList: thread 0x25383d6cff0 cannot be unregister because not in the list
+[2025-06-10 14:21:37.564 | debug | PId: 27164 | TId: 20348] Removing thread 25383d6cff0 from the main managed thread list.
+[2025-06-10 14:21:38.562 | debug | PId: 27164 | TId: 24596] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:21:38.562 | debug | PId: 27164 | TId: 24596] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=24596)
+[2025-06-10 14:21:38.562 | debug | PId: 27164 | TId: 24596] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 24596, osThreadHandle: 0x0000000000000D08) completed for ProfilerThreadInfoId=43.
+[2025-06-10 14:21:43.518 | debug | PId: 27164 | TId: 24596] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:21:43.518 | debug | PId: 27164 | TId: 24596] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:21:43.518 | debug | PId: 27164 | TId: 24596] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:21:43.518 | debug | PId: 27164 | TId: 24596] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:21:43.566 | debug | PId: 27164 | TId: 7904] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:21:43.566 | debug | PId: 27164 | TId: 7904] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=7904)
+[2025-06-10 14:21:43.566 | debug | PId: 27164 | TId: 7904] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 7904, osThreadHandle: 0x0000000000000EE4) completed for ProfilerThreadInfoId=44.
+[2025-06-10 14:21:47.569 | debug | PId: 27164 | TId: 7904] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:21:47.569 | debug | PId: 27164 | TId: 7904] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:21:47.569 | debug | PId: 27164 | TId: 7904] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:21:47.569 | debug | PId: 27164 | TId: 7904] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:21:47.758 | debug | PId: 27164 | TId: 28356] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:21:47.759 | debug | PId: 27164 | TId: 28356] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=28356)
+[2025-06-10 14:21:47.759 | debug | PId: 27164 | TId: 28356] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 28356, osThreadHandle: 0x0000000000000D9C) completed for ProfilerThreadInfoId=45.
+[2025-06-10 14:21:52.603 | debug | PId: 27164 | TId: 28356] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:21:52.603 | debug | PId: 27164 | TId: 28356] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:21:52.603 | debug | PId: 27164 | TId: 28356] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:21:52.603 | debug | PId: 27164 | TId: 28356] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:21:53.606 | debug | PId: 27164 | TId: 33888] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:21:53.606 | debug | PId: 27164 | TId: 33888] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=33888)
+[2025-06-10 14:21:53.606 | debug | PId: 27164 | TId: 33888] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 33888, osThreadHandle: 0x0000000000000F4C) completed for ProfilerThreadInfoId=46.
+[2025-06-10 14:21:57.612 | debug | PId: 27164 | TId: 33888] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:21:57.612 | debug | PId: 27164 | TId: 33888] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:21:57.612 | debug | PId: 27164 | TId: 33888] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:21:57.612 | debug | PId: 27164 | TId: 33888] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:21:58.624 | debug | PId: 27164 | TId: 22376] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:21:58.624 | debug | PId: 27164 | TId: 22376] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=22376)
+[2025-06-10 14:21:58.624 | debug | PId: 27164 | TId: 22376] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 22376, osThreadHandle: 0x0000000000000EB4) completed for ProfilerThreadInfoId=47.
+[2025-06-10 14:22:02.964 | debug | PId: 27164 | TId: 22376] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:22:02.964 | debug | PId: 27164 | TId: 22376] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:22:02.964 | debug | PId: 27164 | TId: 22376] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:22:02.964 | debug | PId: 27164 | TId: 22376] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:22:03.324 | debug | PId: 27164 | TId: 8408] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:22:03.324 | debug | PId: 27164 | TId: 8408] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=8408)
+[2025-06-10 14:22:03.324 | debug | PId: 27164 | TId: 8408] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 8408, osThreadHandle: 0x0000000000000F34) completed for ProfilerThreadInfoId=48.
+[2025-06-10 14:22:07.664 | debug | PId: 27164 | TId: 8408] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:22:07.664 | debug | PId: 27164 | TId: 8408] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:22:07.664 | debug | PId: 27164 | TId: 8408] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:22:07.664 | debug | PId: 27164 | TId: 8408] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:22:08.648 | debug | PId: 27164 | TId: 10212] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:22:08.648 | debug | PId: 27164 | TId: 10212] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=10212)
+[2025-06-10 14:22:08.648 | debug | PId: 27164 | TId: 10212] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 10212, osThreadHandle: 0x0000000000000E98) completed for ProfilerThreadInfoId=49.
+[2025-06-10 14:22:12.664 | debug | PId: 27164 | TId: 10212] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:22:12.665 | debug | PId: 27164 | TId: 10212] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:22:12.665 | debug | PId: 27164 | TId: 10212] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:22:12.665 | debug | PId: 27164 | TId: 10212] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:22:13.658 | debug | PId: 27164 | TId: 32320] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:22:13.658 | debug | PId: 27164 | TId: 32320] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=32320)
+[2025-06-10 14:22:13.658 | debug | PId: 27164 | TId: 32320] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 32320, osThreadHandle: 0x0000000000000CF8) completed for ProfilerThreadInfoId=50.
+[2025-06-10 14:22:18.259 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:22:18.259 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:22:18.259 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:22:18.259 | debug | PId: 27164 | TId: 20832] ContentionProvider : 1
+[2025-06-10 14:22:18.259 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:22:18.259 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 10
+[2025-06-10 14:22:18.259 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19209
+[2025-06-10 14:22:18.666 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      468 ms [  9.1 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      249 ms [  4.9 %]  DD_worker
+ 20832 |      124 ms [  2.4 %]  DD_exporter
+ 18072 |      999 ms [   19 %]  DD_StackSampler
+ 32376 |       46 ms [  0.9 %] DD_rejit
+ 32128 |        0 ms [    0 %] .NET Finalizer
+  4428 |       93 ms [  1.8 %]  .NET TP Worker
+ 26876 |        0 ms [    0 %] .NET TP Gate
+ 11380 |       15 ms [ 0.29 %]  .NET TP Worker
+ 21412 |       31 ms [  0.6 %] .NET Timer
+ 11272 |        0 ms [    0 %] 
+ 33560 |       15 ms [ 0.29 %] .NET Long Running Task
+ 31920 |     1827 ms [   36 %]  .NET TP Worker
+ 30648 |       15 ms [ 0.29 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |       15 ms [ 0.29 %] .NET Long Running Task
+ 27772 |       31 ms [  0.6 %] .NET ThreadPool IO
+ 28484 |        0 ms [    0 %] .NET ThreadPool IO
+ 28668 |        0 ms [    0 %]  .NET TP Worker
+ 23724 |       30 ms [ 0.59 %]  .NET TP Worker
+ 23188 |       77 ms [  1.5 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.29 %] 
+ 15684 |       15 ms [ 0.29 %] .NET System Events
+ 15544 |       15 ms [ 0.29 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+  8704 |        0 ms [    0 %] 
+ 32320 |        0 ms [    0 %] .NET Tiered Compilation Worker
+ 24472 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:22:22.686 | debug | PId: 27164 | TId: 32320] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:22:22.687 | debug | PId: 27164 | TId: 32320] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:22:22.687 | debug | PId: 27164 | TId: 32320] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:22:22.687 | debug | PId: 27164 | TId: 32320] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:22:23.682 | debug | PId: 27164 | TId: 10968] Callback invoked: ThreadCreated(threadId=0x25383d6cff0)
+[2025-06-10 14:22:23.682 | debug | PId: 27164 | TId: 10968] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6cff0, osThreadId=10968)
+[2025-06-10 14:22:23.682 | debug | PId: 27164 | TId: 10968] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6cff0, osThreadId: 10968, osThreadHandle: 0x0000000000000CF8) completed for ProfilerThreadInfoId=51.
+[2025-06-10 14:22:27.692 | debug | PId: 27164 | TId: 10968] Callback invoked: ThreadDestroyed(threadId=0x25383d6cff0)
+[2025-06-10 14:22:27.692 | debug | PId: 27164 | TId: 10968] Removing thread 25383d6cff0 from the trace context threads list.
+[2025-06-10 14:22:27.692 | debug | PId: 27164 | TId: 10968] ManagedThreadList: thread 0x25383d6cff0 cannot be unregister because not in the list
+[2025-06-10 14:22:27.692 | debug | PId: 27164 | TId: 10968] Removing thread 25383d6cff0 from the main managed thread list.
+[2025-06-10 14:22:28.703 | debug | PId: 27164 | TId: 24636] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:22:28.703 | debug | PId: 27164 | TId: 24636] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=24636)
+[2025-06-10 14:22:28.703 | debug | PId: 27164 | TId: 24636] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 24636, osThreadHandle: 0x0000000000000F98) completed for ProfilerThreadInfoId=52.
+[2025-06-10 14:22:37.741 | debug | PId: 27164 | TId: 24636] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:22:37.741 | debug | PId: 27164 | TId: 24636] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:22:37.741 | debug | PId: 27164 | TId: 24636] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:22:37.741 | debug | PId: 27164 | TId: 24636] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:22:38.720 | debug | PId: 27164 | TId: 32444] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:22:38.720 | debug | PId: 27164 | TId: 32444] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=32444)
+[2025-06-10 14:22:38.720 | debug | PId: 27164 | TId: 32444] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 32444, osThreadHandle: 0x0000000000000DA4) completed for ProfilerThreadInfoId=53.
+[2025-06-10 14:22:42.766 | debug | PId: 27164 | TId: 32444] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:22:42.766 | debug | PId: 27164 | TId: 32444] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:22:42.766 | debug | PId: 27164 | TId: 32444] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:22:42.766 | debug | PId: 27164 | TId: 32444] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:22:43.748 | debug | PId: 27164 | TId: 28676] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:22:43.748 | debug | PId: 27164 | TId: 28676] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=28676)
+[2025-06-10 14:22:43.748 | debug | PId: 27164 | TId: 28676] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 28676, osThreadHandle: 0x0000000000000E40) completed for ProfilerThreadInfoId=54.
+[2025-06-10 14:22:52.764 | debug | PId: 27164 | TId: 28676] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:22:52.764 | debug | PId: 27164 | TId: 28676] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:22:52.764 | debug | PId: 27164 | TId: 28676] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:22:52.764 | debug | PId: 27164 | TId: 28676] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:22:53.770 | debug | PId: 27164 | TId: 29428] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:22:53.770 | debug | PId: 27164 | TId: 29428] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=29428)
+[2025-06-10 14:22:53.770 | debug | PId: 27164 | TId: 29428] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 29428, osThreadHandle: 0x0000000000000D54) completed for ProfilerThreadInfoId=55.
+[2025-06-10 14:22:57.773 | debug | PId: 27164 | TId: 29428] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:22:57.773 | debug | PId: 27164 | TId: 29428] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:22:57.773 | debug | PId: 27164 | TId: 29428] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:22:57.773 | debug | PId: 27164 | TId: 29428] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:22:57.914 | debug | PId: 27164 | TId: 34376] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:22:57.914 | debug | PId: 27164 | TId: 34376] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=34376)
+[2025-06-10 14:22:57.914 | debug | PId: 27164 | TId: 34376] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 34376, osThreadHandle: 0x0000000000000EDC) completed for ProfilerThreadInfoId=56.
+[2025-06-10 14:23:02.803 | debug | PId: 27164 | TId: 34376] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:23:02.803 | debug | PId: 27164 | TId: 34376] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:23:02.803 | debug | PId: 27164 | TId: 34376] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:23:02.803 | debug | PId: 27164 | TId: 34376] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:23:03.800 | debug | PId: 27164 | TId: 34292] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:23:03.800 | debug | PId: 27164 | TId: 34292] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=34292)
+[2025-06-10 14:23:03.800 | debug | PId: 27164 | TId: 34292] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 34292, osThreadHandle: 0x0000000000000D54) completed for ProfilerThreadInfoId=57.
+[2025-06-10 14:23:07.801 | debug | PId: 27164 | TId: 34292] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:23:07.801 | debug | PId: 27164 | TId: 34292] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:23:07.801 | debug | PId: 27164 | TId: 34292] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:23:07.801 | debug | PId: 27164 | TId: 34292] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:23:07.817 | debug | PId: 27164 | TId: 34396] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:23:07.817 | debug | PId: 27164 | TId: 34396] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=34396)
+[2025-06-10 14:23:07.817 | debug | PId: 27164 | TId: 34396] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 34396, osThreadHandle: 0x0000000000000E1C) completed for ProfilerThreadInfoId=58.
+[2025-06-10 14:23:11.823 | debug | PId: 27164 | TId: 34396] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:23:11.823 | debug | PId: 27164 | TId: 34396] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:23:11.823 | debug | PId: 27164 | TId: 34396] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:23:11.823 | debug | PId: 27164 | TId: 34396] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:23:13.831 | debug | PId: 27164 | TId: 29420] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:23:13.831 | debug | PId: 27164 | TId: 29420] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=29420)
+[2025-06-10 14:23:13.831 | debug | PId: 27164 | TId: 29420] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 29420, osThreadHandle: 0x000000000000032C) completed for ProfilerThreadInfoId=59.
+[2025-06-10 14:23:18.677 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:23:18.677 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:23:18.677 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:23:18.677 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:23:18.677 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:23:18.677 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 11
+[2025-06-10 14:23:18.677 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19370
+[2025-06-10 14:23:19.009 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      468 ms [  8.2 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      327 ms [  5.7 %]  DD_worker
+ 20832 |      187 ms [  3.3 %]  DD_exporter
+ 18072 |     1265 ms [   22 %]  DD_StackSampler
+ 32376 |       61 ms [  1.1 %] DD_rejit
+ 32128 |        0 ms [    0 %] .NET Finalizer
+  4428 |      109 ms [  1.9 %]  .NET TP Worker
+ 26876 |        0 ms [    0 %] .NET TP Gate
+ 11380 |       30 ms [ 0.53 %]  .NET TP Worker
+ 21412 |       46 ms [ 0.81 %] .NET Timer
+ 33560 |       15 ms [ 0.26 %] .NET Long Running Task
+ 31920 |     1858 ms [   33 %]  .NET TP Worker
+ 30648 |       15 ms [ 0.26 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |       15 ms [ 0.26 %] .NET Long Running Task
+ 27772 |       31 ms [ 0.55 %] .NET ThreadPool IO
+ 28484 |        0 ms [    0 %] .NET ThreadPool IO
+ 28668 |        0 ms [    0 %]  .NET TP Worker
+ 23724 |       30 ms [ 0.53 %]  .NET TP Worker
+ 23188 |       93 ms [  1.6 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.26 %] 
+ 15684 |       31 ms [ 0.55 %] .NET System Events
+ 15544 |       15 ms [ 0.26 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+  8704 |        0 ms [    0 %] 
+ 29608 |        0 ms [    0 %] 
+ 29420 |        0 ms [    0 %] .NET Tiered Compilation Worker
+ 29788 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:23:22.866 | debug | PId: 27164 | TId: 29420] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:23:22.866 | debug | PId: 27164 | TId: 29420] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:23:22.866 | debug | PId: 27164 | TId: 29420] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:23:22.866 | debug | PId: 27164 | TId: 29420] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:23:23.866 | debug | PId: 27164 | TId: 27728] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:23:23.866 | debug | PId: 27164 | TId: 27728] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=27728)
+[2025-06-10 14:23:23.866 | debug | PId: 27164 | TId: 27728] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 27728, osThreadHandle: 0x0000000000000550) completed for ProfilerThreadInfoId=60.
+[2025-06-10 14:23:33.807 | debug | PId: 27164 | TId: 27728] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:23:33.807 | debug | PId: 27164 | TId: 27728] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:23:33.808 | debug | PId: 27164 | TId: 27728] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:23:33.808 | debug | PId: 27164 | TId: 27728] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:23:33.901 | debug | PId: 27164 | TId: 33428] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:23:33.901 | debug | PId: 27164 | TId: 33428] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=33428)
+[2025-06-10 14:23:33.901 | debug | PId: 27164 | TId: 33428] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 33428, osThreadHandle: 0x000000000000054C) completed for ProfilerThreadInfoId=61.
+[2025-06-10 14:23:37.901 | debug | PId: 27164 | TId: 33428] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:23:37.901 | debug | PId: 27164 | TId: 33428] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:23:37.901 | debug | PId: 27164 | TId: 33428] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:23:37.901 | debug | PId: 27164 | TId: 33428] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:23:39.070 | debug | PId: 27164 | TId: 32188] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:23:39.070 | debug | PId: 27164 | TId: 32188] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=32188)
+[2025-06-10 14:23:39.070 | debug | PId: 27164 | TId: 32188] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 32188, osThreadHandle: 0x0000000000000F6C) completed for ProfilerThreadInfoId=62.
+[2025-06-10 14:23:43.081 | debug | PId: 27164 | TId: 32188] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:23:43.081 | debug | PId: 27164 | TId: 32188] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:23:43.081 | debug | PId: 27164 | TId: 32188] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:23:43.081 | debug | PId: 27164 | TId: 32188] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:23:47.876 | debug | PId: 27164 | TId: 10824] Callback invoked: ThreadCreated(threadId=0x25383d6cff0)
+[2025-06-10 14:23:47.876 | debug | PId: 27164 | TId: 10824] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6cff0, osThreadId=10824)
+[2025-06-10 14:23:47.876 | debug | PId: 27164 | TId: 10824] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6cff0, osThreadId: 10824, osThreadHandle: 0x0000000000000EC8) completed for ProfilerThreadInfoId=63.
+[2025-06-10 14:23:51.891 | debug | PId: 27164 | TId: 10824] Callback invoked: ThreadDestroyed(threadId=0x25383d6cff0)
+[2025-06-10 14:23:51.891 | debug | PId: 27164 | TId: 10824] Removing thread 25383d6cff0 from the trace context threads list.
+[2025-06-10 14:23:51.891 | debug | PId: 27164 | TId: 10824] ManagedThreadList: thread 0x25383d6cff0 cannot be unregister because not in the list
+[2025-06-10 14:23:51.891 | debug | PId: 27164 | TId: 10824] Removing thread 25383d6cff0 from the main managed thread list.
+[2025-06-10 14:23:52.858 | debug | PId: 27164 | TId: 27032] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:23:52.858 | debug | PId: 27164 | TId: 27032] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=27032)
+[2025-06-10 14:23:52.858 | debug | PId: 27164 | TId: 27032] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 27032, osThreadHandle: 0x0000000000000550) completed for ProfilerThreadInfoId=64.
+[2025-06-10 14:23:56.863 | debug | PId: 27164 | TId: 27032] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:23:56.863 | debug | PId: 27164 | TId: 27032] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:23:56.863 | debug | PId: 27164 | TId: 27032] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:23:56.863 | debug | PId: 27164 | TId: 27032] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:24:06.397 | debug | PId: 27164 | TId: 11336] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:24:06.397 | debug | PId: 27164 | TId: 11336] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=11336)
+[2025-06-10 14:24:06.397 | debug | PId: 27164 | TId: 11336] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 11336, osThreadHandle: 0x0000000000000D9C) completed for ProfilerThreadInfoId=65.
+[2025-06-10 14:24:11.887 | debug | PId: 27164 | TId: 11336] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:24:11.887 | debug | PId: 27164 | TId: 11336] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:24:11.887 | debug | PId: 27164 | TId: 11336] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:24:11.887 | debug | PId: 27164 | TId: 11336] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:24:17.684 | debug | PId: 27164 | TId: 21580] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:24:17.684 | debug | PId: 27164 | TId: 21580] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=21580)
+[2025-06-10 14:24:17.684 | debug | PId: 27164 | TId: 21580] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 21580, osThreadHandle: 0x0000000000000EF4) completed for ProfilerThreadInfoId=66.
+[2025-06-10 14:24:19.017 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:24:19.017 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:24:19.017 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:24:19.017 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:24:19.017 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:24:19.017 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 7
+[2025-06-10 14:24:19.017 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19340
+[2025-06-10 14:24:19.367 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      515 ms [  8.5 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      359 ms [  5.9 %]  DD_worker
+ 20832 |      218 ms [  3.6 %]  DD_exporter
+ 18072 |     1453 ms [   24 %]  DD_StackSampler
+ 32376 |       61 ms [    1 %] DD_rejit
+ 32128 |        0 ms [    0 %] .NET Finalizer
+  4428 |      109 ms [  1.8 %]  .NET TP Worker
+ 26876 |        0 ms [    0 %] .NET TP Gate
+ 11380 |       30 ms [ 0.49 %]  .NET TP Worker
+ 21412 |       46 ms [ 0.76 %] .NET Timer
+ 33560 |       15 ms [ 0.25 %] .NET Long Running Task
+ 31920 |     1858 ms [   31 %]  .NET TP Worker
+ 30648 |       31 ms [ 0.51 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |       15 ms [ 0.25 %] .NET Long Running Task
+ 27772 |       31 ms [ 0.51 %] .NET ThreadPool IO
+ 28484 |        0 ms [    0 %] .NET ThreadPool IO
+ 28668 |       31 ms [ 0.51 %]  .NET TP Worker
+ 23724 |       30 ms [ 0.49 %]  .NET TP Worker
+ 23188 |      108 ms [  1.8 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.25 %] 
+ 15684 |       31 ms [ 0.51 %] .NET System Events
+ 15544 |       15 ms [ 0.25 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+  8704 |        0 ms [    0 %] 
+ 29608 |        0 ms [    0 %] 
+ 21580 |        0 ms [    0 %] .NET Tiered Compilation Worker
+ 10416 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:24:23.050 | debug | PId: 27164 | TId: 21580] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:24:23.050 | debug | PId: 27164 | TId: 21580] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:24:23.050 | debug | PId: 27164 | TId: 21580] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:24:23.050 | debug | PId: 27164 | TId: 21580] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:24:47.900 | debug | PId: 27164 | TId: 12396] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:24:47.901 | debug | PId: 27164 | TId: 12396] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=12396)
+[2025-06-10 14:24:47.901 | debug | PId: 27164 | TId: 12396] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 12396, osThreadHandle: 0x0000000000000E8C) completed for ProfilerThreadInfoId=67.
+[2025-06-10 14:24:51.902 | debug | PId: 27164 | TId: 12396] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:24:51.902 | debug | PId: 27164 | TId: 12396] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:24:51.902 | debug | PId: 27164 | TId: 12396] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:24:51.902 | debug | PId: 27164 | TId: 12396] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:25:09.198 | debug | PId: 27164 | TId: 11340] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:25:09.199 | debug | PId: 27164 | TId: 11340] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=11340)
+[2025-06-10 14:25:09.199 | debug | PId: 27164 | TId: 11340] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 11340, osThreadHandle: 0x0000000000000D9C) completed for ProfilerThreadInfoId=68.
+[2025-06-10 14:25:13.220 | debug | PId: 27164 | TId: 11340] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:25:13.220 | debug | PId: 27164 | TId: 11340] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:25:13.220 | debug | PId: 27164 | TId: 11340] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:25:13.220 | debug | PId: 27164 | TId: 11340] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:25:17.690 | debug | PId: 27164 | TId: 6924] Callback invoked: ThreadCreated(threadId=0x25383d6cff0)
+[2025-06-10 14:25:17.690 | debug | PId: 27164 | TId: 6924] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6cff0, osThreadId=6924)
+[2025-06-10 14:25:17.690 | debug | PId: 27164 | TId: 6924] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6cff0, osThreadId: 6924, osThreadHandle: 0x0000000000000E30) completed for ProfilerThreadInfoId=69.
+[2025-06-10 14:25:19.371 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:25:19.371 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 1
+[2025-06-10 14:25:19.371 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 1
+[2025-06-10 14:25:19.371 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:25:19.371 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:25:19.371 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 5
+[2025-06-10 14:25:19.371 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19395
+[2025-06-10 14:25:19.693 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      515 ms [  8.1 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      390 ms [  6.1 %]  DD_worker
+ 20832 |      265 ms [  4.2 %]  DD_exporter
+ 18072 |     1608 ms [   25 %]  DD_StackSampler
+ 32376 |       61 ms [ 0.96 %] DD_rejit
+ 32128 |        0 ms [    0 %] .NET Finalizer
+  4428 |      109 ms [  1.7 %]  .NET TP Worker
+ 26876 |        0 ms [    0 %] .NET TP Gate
+ 11380 |       46 ms [ 0.72 %]  .NET TP Worker
+ 21412 |       62 ms [ 0.97 %] .NET Timer
+ 33560 |       15 ms [ 0.24 %] .NET Long Running Task
+ 31920 |     1858 ms [   29 %]  .NET TP Worker
+ 30648 |       31 ms [ 0.49 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |       30 ms [ 0.47 %] .NET Long Running Task
+ 27772 |       31 ms [ 0.49 %] .NET ThreadPool IO
+ 28484 |        0 ms [    0 %] .NET ThreadPool IO
+ 28668 |       31 ms [ 0.49 %]  .NET TP Worker
+ 23724 |       30 ms [ 0.47 %]  .NET TP Worker
+ 23188 |      108 ms [  1.7 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.24 %] 
+ 15684 |       31 ms [ 0.49 %] .NET System Events
+ 15544 |       15 ms [ 0.24 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 29608 |        0 ms [    0 %] 
+ 20044 |        0 ms [    0 %] 
+  6924 |        0 ms [    0 %] .NET Tiered Compilation Worker
+ 20888 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:25:21.693 | debug | PId: 27164 | TId: 6924] Callback invoked: ThreadDestroyed(threadId=0x25383d6cff0)
+[2025-06-10 14:25:21.693 | debug | PId: 27164 | TId: 6924] Removing thread 25383d6cff0 from the trace context threads list.
+[2025-06-10 14:25:21.693 | debug | PId: 27164 | TId: 6924] ManagedThreadList: thread 0x25383d6cff0 cannot be unregister because not in the list
+[2025-06-10 14:25:21.693 | debug | PId: 27164 | TId: 6924] Removing thread 25383d6cff0 from the main managed thread list.
+[2025-06-10 14:25:38.268 | debug | PId: 27164 | TId: 24132] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:25:38.268 | debug | PId: 27164 | TId: 24132] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=24132)
+[2025-06-10 14:25:38.268 | debug | PId: 27164 | TId: 24132] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 24132, osThreadHandle: 0x0000000000000F28) completed for ProfilerThreadInfoId=70.
+[2025-06-10 14:25:42.274 | debug | PId: 27164 | TId: 24132] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:25:42.274 | debug | PId: 27164 | TId: 24132] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:25:42.274 | debug | PId: 27164 | TId: 24132] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:25:42.274 | debug | PId: 27164 | TId: 24132] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:25:47.917 | debug | PId: 27164 | TId: 27644] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:25:47.917 | debug | PId: 27164 | TId: 27644] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=27644)
+[2025-06-10 14:25:47.917 | debug | PId: 27164 | TId: 27644] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 27644, osThreadHandle: 0x0000000000000D04) completed for ProfilerThreadInfoId=71.
+[2025-06-10 14:25:51.928 | debug | PId: 27164 | TId: 27644] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:25:51.928 | debug | PId: 27164 | TId: 27644] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:25:51.928 | debug | PId: 27164 | TId: 27644] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:25:51.928 | debug | PId: 27164 | TId: 27644] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:25:59.314 | debug | PId: 27164 | TId: 28980] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:25:59.314 | debug | PId: 27164 | TId: 28980] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=28980)
+[2025-06-10 14:25:59.314 | debug | PId: 27164 | TId: 28980] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 28980, osThreadHandle: 0x0000000000000E2C) completed for ProfilerThreadInfoId=72.
+[2025-06-10 14:26:03.327 | debug | PId: 27164 | TId: 28980] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:26:03.327 | debug | PId: 27164 | TId: 28980] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:26:03.327 | debug | PId: 27164 | TId: 28980] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:26:03.327 | debug | PId: 27164 | TId: 28980] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:26:17.695 | debug | PId: 27164 | TId: 9288] Callback invoked: ThreadCreated(threadId=0x25383d6cff0)
+[2025-06-10 14:26:17.695 | debug | PId: 27164 | TId: 9288] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6cff0, osThreadId=9288)
+[2025-06-10 14:26:17.695 | debug | PId: 27164 | TId: 9288] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6cff0, osThreadId: 9288, osThreadHandle: 0x0000000000000D5C) completed for ProfilerThreadInfoId=73.
+[2025-06-10 14:26:19.697 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:26:19.697 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:26:19.697 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:26:19.697 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:26:19.697 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:26:19.697 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 6
+[2025-06-10 14:26:19.697 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19375
+[2025-06-10 14:26:20.056 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [  7.9 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      390 ms [  5.8 %]  DD_worker
+ 20832 |      312 ms [  4.7 %]  DD_exporter
+ 18072 |     1765 ms [   26 %]  DD_StackSampler
+ 32376 |       77 ms [  1.2 %] DD_rejit
+ 32128 |        0 ms [    0 %] .NET Finalizer
+  4428 |      124 ms [  1.9 %]  .NET TP Worker
+ 26876 |        0 ms [    0 %] .NET TP Gate
+ 11380 |       46 ms [ 0.69 %]  .NET TP Worker
+ 21412 |       62 ms [ 0.93 %] .NET Timer
+ 33560 |       31 ms [ 0.46 %] .NET Long Running Task
+ 31920 |     1858 ms [   28 %]  .NET TP Worker
+ 30648 |       31 ms [ 0.46 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |       46 ms [ 0.69 %] .NET Long Running Task
+ 27772 |       31 ms [ 0.46 %] .NET ThreadPool IO
+ 28484 |       15 ms [ 0.22 %] .NET ThreadPool IO
+ 28668 |       31 ms [ 0.46 %]  .NET TP Worker
+ 23724 |       30 ms [ 0.45 %]  .NET TP Worker
+ 23188 |      108 ms [  1.6 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.22 %] 
+ 15684 |       46 ms [ 0.69 %] .NET System Events
+ 15544 |       15 ms [ 0.22 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 29608 |        0 ms [    0 %] 
+ 20044 |        0 ms [    0 %] 
+  9288 |        0 ms [    0 %] .NET Tiered Compilation Worker
+ 23980 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:26:21.943 | debug | PId: 27164 | TId: 9288] Callback invoked: ThreadDestroyed(threadId=0x25383d6cff0)
+[2025-06-10 14:26:21.943 | debug | PId: 27164 | TId: 9288] Removing thread 25383d6cff0 from the trace context threads list.
+[2025-06-10 14:26:21.943 | debug | PId: 27164 | TId: 9288] ManagedThreadList: thread 0x25383d6cff0 cannot be unregister because not in the list
+[2025-06-10 14:26:21.943 | debug | PId: 27164 | TId: 9288] Removing thread 25383d6cff0 from the main managed thread list.
+[2025-06-10 14:26:37.958 | debug | PId: 27164 | TId: 19564] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:26:37.958 | debug | PId: 27164 | TId: 19564] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=19564)
+[2025-06-10 14:26:37.958 | debug | PId: 27164 | TId: 19564] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 19564, osThreadHandle: 0x0000000000000EA8) completed for ProfilerThreadInfoId=74.
+[2025-06-10 14:26:41.966 | debug | PId: 27164 | TId: 19564] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:26:41.966 | debug | PId: 27164 | TId: 19564] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:26:41.966 | debug | PId: 27164 | TId: 19564] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:26:41.966 | debug | PId: 27164 | TId: 19564] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:26:49.478 | debug | PId: 27164 | TId: 33936] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:26:49.478 | debug | PId: 27164 | TId: 33936] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=33936)
+[2025-06-10 14:26:49.478 | debug | PId: 27164 | TId: 33936] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 33936, osThreadHandle: 0x0000000000000EA0) completed for ProfilerThreadInfoId=75.
+[2025-06-10 14:26:53.492 | debug | PId: 27164 | TId: 33936] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:26:53.492 | debug | PId: 27164 | TId: 33936] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:26:53.492 | debug | PId: 27164 | TId: 33936] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:26:53.492 | debug | PId: 27164 | TId: 33936] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:27:17.698 | debug | PId: 27164 | TId: 30072] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:27:17.698 | debug | PId: 27164 | TId: 30072] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=30072)
+[2025-06-10 14:27:17.698 | debug | PId: 27164 | TId: 30072] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 30072, osThreadHandle: 0x0000000000000DCC) completed for ProfilerThreadInfoId=76.
+[2025-06-10 14:27:20.072 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:27:20.072 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:27:20.072 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:27:20.072 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:27:20.072 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:27:20.072 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 14
+[2025-06-10 14:27:20.072 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19375
+[2025-06-10 14:27:20.431 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [  7.3 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      421 ms [  5.8 %]  DD_worker
+ 20832 |      343 ms [  4.7 %]  DD_exporter
+ 18072 |     2062 ms [   28 %]  DD_StackSampler
+ 32376 |       77 ms [  1.1 %] DD_rejit
+ 32128 |        0 ms [    0 %] .NET Finalizer
+  4428 |      140 ms [  1.9 %]  .NET TP Worker
+ 26876 |       15 ms [ 0.21 %] .NET TP Gate
+ 11380 |       62 ms [ 0.85 %]  .NET TP Worker
+ 21412 |       62 ms [ 0.85 %] .NET Timer
+ 33560 |       46 ms [ 0.63 %] .NET Long Running Task
+ 31920 |     1858 ms [   26 %]  .NET TP Worker
+ 30648 |       31 ms [ 0.43 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |       46 ms [ 0.63 %] .NET Long Running Task
+ 27772 |       31 ms [ 0.43 %] .NET ThreadPool IO
+ 28484 |       31 ms [ 0.43 %] .NET ThreadPool IO
+ 28668 |       46 ms [ 0.63 %]  .NET TP Worker
+ 23724 |       77 ms [  1.1 %]  .NET TP Worker
+ 23188 |      124 ms [  1.7 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.21 %] 
+ 15684 |       46 ms [ 0.63 %] .NET System Events
+ 15544 |       46 ms [ 0.63 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 20044 |        0 ms [    0 %] 
+ 34292 |        0 ms [    0 %] 
+ 30072 |        0 ms [    0 %] .NET Tiered Compilation Worker
+  9256 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:27:21.712 | debug | PId: 27164 | TId: 30072] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:27:21.712 | debug | PId: 27164 | TId: 30072] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:27:21.712 | debug | PId: 27164 | TId: 30072] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:27:21.712 | debug | PId: 27164 | TId: 30072] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:27:38.069 | debug | PId: 27164 | TId: 31092] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:27:38.069 | debug | PId: 27164 | TId: 31092] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=31092)
+[2025-06-10 14:27:38.069 | debug | PId: 27164 | TId: 31092] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 31092, osThreadHandle: 0x0000000000000F4C) completed for ProfilerThreadInfoId=77.
+[2025-06-10 14:27:43.624 | debug | PId: 27164 | TId: 31092] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:27:43.624 | debug | PId: 27164 | TId: 31092] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:27:43.624 | debug | PId: 27164 | TId: 31092] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:27:43.624 | debug | PId: 27164 | TId: 31092] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:27:47.965 | debug | PId: 27164 | TId: 20904] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:27:47.965 | debug | PId: 27164 | TId: 20904] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=20904)
+[2025-06-10 14:27:47.965 | debug | PId: 27164 | TId: 20904] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 20904, osThreadHandle: 0x0000000000000DB4) completed for ProfilerThreadInfoId=78.
+[2025-06-10 14:27:52.032 | debug | PId: 27164 | TId: 20904] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:27:52.032 | debug | PId: 27164 | TId: 20904] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:27:52.032 | debug | PId: 27164 | TId: 20904] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:27:52.032 | debug | PId: 27164 | TId: 20904] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:27:58.106 | debug | PId: 27164 | TId: 19564] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:27:58.106 | debug | PId: 27164 | TId: 19564] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=19564)
+[2025-06-10 14:27:58.106 | debug | PId: 27164 | TId: 19564] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 19564, osThreadHandle: 0x000000000000054C) completed for ProfilerThreadInfoId=79.
+[2025-06-10 14:28:02.331 | debug | PId: 27164 | TId: 19564] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:28:02.331 | debug | PId: 27164 | TId: 19564] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:28:02.331 | debug | PId: 27164 | TId: 19564] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:28:02.331 | debug | PId: 27164 | TId: 19564] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:28:08.037 | debug | PId: 27164 | TId: 15100] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:28:08.037 | debug | PId: 27164 | TId: 15100] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=15100)
+[2025-06-10 14:28:08.037 | debug | PId: 27164 | TId: 15100] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 15100, osThreadHandle: 0x0000000000000FDC) completed for ProfilerThreadInfoId=80.
+[2025-06-10 14:28:12.040 | debug | PId: 27164 | TId: 15100] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:28:12.040 | debug | PId: 27164 | TId: 15100] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:28:12.040 | debug | PId: 27164 | TId: 15100] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:28:12.040 | debug | PId: 27164 | TId: 15100] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:28:17.700 | debug | PId: 27164 | TId: 31092] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:28:17.700 | debug | PId: 27164 | TId: 31092] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=31092)
+[2025-06-10 14:28:17.700 | debug | PId: 27164 | TId: 31092] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 31092, osThreadHandle: 0x0000000000000F64) completed for ProfilerThreadInfoId=81.
+[2025-06-10 14:28:20.444 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:28:20.444 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:28:20.444 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:28:20.444 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:28:20.444 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:28:20.444 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 5
+[2025-06-10 14:28:20.444 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19360
+[2025-06-10 14:28:20.783 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [  6.9 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      437 ms [  5.7 %]  DD_worker
+ 20832 |      359 ms [  4.7 %]  DD_exporter
+ 18072 |     2311 ms [   30 %]  DD_StackSampler
+ 32376 |       77 ms [    1 %] DD_rejit
+ 32128 |        0 ms [    0 %] .NET Finalizer
+  4428 |      140 ms [  1.8 %]  .NET TP Worker
+ 26876 |       31 ms [  0.4 %] .NET TP Gate
+ 11380 |       93 ms [  1.2 %]  .NET TP Worker
+ 21412 |       62 ms [ 0.81 %] .NET Timer
+ 33560 |       46 ms [  0.6 %] .NET Long Running Task
+ 31920 |     1858 ms [   24 %]  .NET TP Worker
+ 30648 |       31 ms [  0.4 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |       46 ms [  0.6 %] .NET Long Running Task
+ 27772 |       31 ms [  0.4 %] .NET ThreadPool IO
+ 28484 |       31 ms [  0.4 %] .NET ThreadPool IO
+ 28668 |       62 ms [ 0.81 %]  .NET TP Worker
+ 23724 |       93 ms [  1.2 %]  .NET TP Worker
+ 23188 |      124 ms [  1.6 %]  .NET TP Worker
+ 34600 |       15 ms [  0.2 %] 
+ 15684 |       46 ms [  0.6 %] .NET System Events
+ 15544 |       46 ms [  0.6 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 20044 |        0 ms [    0 %] 
+ 34292 |        0 ms [    0 %] 
+ 31092 |        0 ms [    0 %] .NET Tiered Compilation Worker
+ 31712 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:28:22.059 | debug | PId: 27164 | TId: 31092] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:28:22.059 | debug | PId: 27164 | TId: 31092] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:28:22.059 | debug | PId: 27164 | TId: 31092] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:28:22.059 | debug | PId: 27164 | TId: 31092] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:28:27.803 | debug | PId: 27164 | TId: 9808] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:28:27.803 | debug | PId: 27164 | TId: 9808] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=9808)
+[2025-06-10 14:28:27.803 | debug | PId: 27164 | TId: 9808] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 9808, osThreadHandle: 0x0000000000000D0C) completed for ProfilerThreadInfoId=82.
+[2025-06-10 14:28:33.767 | debug | PId: 27164 | TId: 9808] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:28:33.767 | debug | PId: 27164 | TId: 9808] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:28:33.767 | debug | PId: 27164 | TId: 9808] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:28:33.767 | debug | PId: 27164 | TId: 9808] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:28:47.725 | debug | PId: 27164 | TId: 28676] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:28:47.725 | debug | PId: 27164 | TId: 28676] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=28676)
+[2025-06-10 14:28:47.725 | debug | PId: 27164 | TId: 28676] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 28676, osThreadHandle: 0x0000000000000F5C) completed for ProfilerThreadInfoId=83.
+[2025-06-10 14:28:52.002 | debug | PId: 27164 | TId: 28676] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:28:52.002 | debug | PId: 27164 | TId: 28676] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:28:52.002 | debug | PId: 27164 | TId: 28676] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:28:52.002 | debug | PId: 27164 | TId: 28676] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:28:58.093 | debug | PId: 27164 | TId: 29976] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:28:58.093 | debug | PId: 27164 | TId: 29976] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=29976)
+[2025-06-10 14:28:58.093 | debug | PId: 27164 | TId: 29976] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 29976, osThreadHandle: 0x0000000000000E54) completed for ProfilerThreadInfoId=84.
+[2025-06-10 14:29:02.105 | debug | PId: 27164 | TId: 29976] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:29:02.105 | debug | PId: 27164 | TId: 29976] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:29:02.105 | debug | PId: 27164 | TId: 29976] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:29:02.105 | debug | PId: 27164 | TId: 29976] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:29:03.010 | debug | PId: 27164 | TId: 25440] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:29:03.010 | debug | PId: 27164 | TId: 25440] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=25440)
+[2025-06-10 14:29:03.010 | debug | PId: 27164 | TId: 25440] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 25440, osThreadHandle: 0x0000000000000E30) completed for ProfilerThreadInfoId=85.
+[2025-06-10 14:29:07.014 | debug | PId: 27164 | TId: 25440] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:29:07.014 | debug | PId: 27164 | TId: 25440] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:29:07.014 | debug | PId: 27164 | TId: 25440] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:29:07.014 | debug | PId: 27164 | TId: 25440] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:29:17.704 | debug | PId: 27164 | TId: 21284] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:29:17.704 | debug | PId: 27164 | TId: 21284] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=21284)
+[2025-06-10 14:29:17.704 | debug | PId: 27164 | TId: 21284] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 21284, osThreadHandle: 0x0000000000000E18) completed for ProfilerThreadInfoId=86.
+[2025-06-10 14:29:20.792 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:29:20.792 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:29:20.792 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:29:20.792 | debug | PId: 27164 | TId: 20832] ContentionProvider : 1
+[2025-06-10 14:29:20.792 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:29:20.792 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 3
+[2025-06-10 14:29:20.792 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19380
+[2025-06-10 14:29:21.138 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [  6.7 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      499 ms [  6.3 %]  DD_worker
+ 20832 |      374 ms [  4.7 %]  DD_exporter
+ 18072 |     2484 ms [   31 %]  DD_StackSampler
+ 32376 |       77 ms [ 0.97 %] DD_rejit
+ 32128 |        0 ms [    0 %] .NET Finalizer
+  4428 |      156 ms [    2 %]  .NET TP Worker
+ 26876 |       31 ms [ 0.39 %] .NET TP Gate
+ 11380 |       93 ms [  1.2 %]  .NET TP Worker
+ 21412 |       62 ms [ 0.78 %] .NET Timer
+ 33560 |       46 ms [ 0.58 %] .NET Long Running Task
+ 31920 |     1858 ms [   23 %]  .NET TP Worker
+ 30648 |       31 ms [ 0.39 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |       46 ms [ 0.58 %] .NET Long Running Task
+ 27772 |       31 ms [ 0.39 %] .NET ThreadPool IO
+ 28484 |       31 ms [ 0.39 %] .NET ThreadPool IO
+ 28668 |       62 ms [ 0.78 %]  .NET TP Worker
+ 23724 |      109 ms [  1.4 %]  .NET TP Worker
+ 23188 |      124 ms [  1.6 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.19 %] 
+ 15684 |       62 ms [ 0.78 %] .NET System Events
+ 15544 |       46 ms [ 0.58 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 20044 |        0 ms [    0 %] 
+ 34292 |        0 ms [    0 %] 
+ 21284 |        0 ms [    0 %] .NET Tiered Compilation Worker
+  8940 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:29:23.921 | debug | PId: 27164 | TId: 21284] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:29:23.921 | debug | PId: 27164 | TId: 21284] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:29:23.921 | debug | PId: 27164 | TId: 21284] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:29:23.921 | debug | PId: 27164 | TId: 21284] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:29:28.276 | debug | PId: 27164 | TId: 34152] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:29:28.276 | debug | PId: 27164 | TId: 34152] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=34152)
+[2025-06-10 14:29:28.276 | debug | PId: 27164 | TId: 34152] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 34152, osThreadHandle: 0x0000000000000DA8) completed for ProfilerThreadInfoId=87.
+[2025-06-10 14:29:32.289 | debug | PId: 27164 | TId: 34152] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:29:32.289 | debug | PId: 27164 | TId: 34152] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:29:32.289 | debug | PId: 27164 | TId: 34152] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:29:32.289 | debug | PId: 27164 | TId: 34152] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:30:10.057 | debug | PId: 27164 | TId: 30924] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:30:10.057 | debug | PId: 27164 | TId: 30924] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=30924)
+[2025-06-10 14:30:10.057 | debug | PId: 27164 | TId: 30924] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 30924, osThreadHandle: 0x0000000000000A18) completed for ProfilerThreadInfoId=88.
+[2025-06-10 14:30:14.064 | debug | PId: 27164 | TId: 30924] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:30:14.064 | debug | PId: 27164 | TId: 30924] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:30:14.064 | debug | PId: 27164 | TId: 30924] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:30:14.064 | debug | PId: 27164 | TId: 30924] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:30:17.716 | debug | PId: 27164 | TId: 30976] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:30:17.716 | debug | PId: 27164 | TId: 30976] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=30976)
+[2025-06-10 14:30:17.716 | debug | PId: 27164 | TId: 30976] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 30976, osThreadHandle: 0x0000000000000F60) completed for ProfilerThreadInfoId=89.
+[2025-06-10 14:30:21.150 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:30:21.150 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 1
+[2025-06-10 14:30:21.150 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 1
+[2025-06-10 14:30:21.150 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:30:21.150 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:30:21.150 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 5
+[2025-06-10 14:30:21.150 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19385
+[2025-06-10 14:30:21.488 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [  6.5 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      562 ms [  6.9 %]  DD_worker
+ 20832 |      374 ms [  4.6 %]  DD_exporter
+ 18072 |     2578 ms [   31 %]  DD_StackSampler
+ 32376 |       77 ms [ 0.94 %] DD_rejit
+ 32128 |       15 ms [ 0.18 %] .NET Finalizer
+  4428 |      156 ms [  1.9 %]  .NET TP Worker
+ 26876 |       31 ms [ 0.38 %] .NET TP Gate
+ 11380 |       93 ms [  1.1 %]  .NET TP Worker
+ 21412 |       62 ms [ 0.76 %] .NET Timer
+ 33560 |       46 ms [ 0.56 %] .NET Long Running Task
+ 31920 |     1874 ms [   23 %]  .NET TP Worker
+ 30648 |       46 ms [ 0.56 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |       46 ms [ 0.56 %] .NET Long Running Task
+ 27772 |       46 ms [ 0.56 %] .NET ThreadPool IO
+ 28484 |       31 ms [ 0.38 %] .NET ThreadPool IO
+ 28668 |       62 ms [ 0.76 %]  .NET TP Worker
+ 23724 |      124 ms [  1.5 %]  .NET TP Worker
+ 23188 |      124 ms [  1.5 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.18 %] 
+ 15684 |       62 ms [ 0.76 %] .NET System Events
+ 15544 |       46 ms [ 0.56 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 34292 |        0 ms [    0 %] 
+ 26320 |        0 ms [    0 %] 
+ 30976 |        0 ms [    0 %] .NET Tiered Compilation Worker
+ 26904 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:30:22.274 | debug | PId: 27164 | TId: 30976] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:30:22.274 | debug | PId: 27164 | TId: 30976] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:30:22.274 | debug | PId: 27164 | TId: 30976] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:30:22.274 | debug | PId: 27164 | TId: 30976] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:31:00.178 | debug | PId: 27164 | TId: 27668] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:31:00.178 | debug | PId: 27164 | TId: 27668] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=27668)
+[2025-06-10 14:31:00.178 | debug | PId: 27164 | TId: 27668] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 27668, osThreadHandle: 0x0000000000000DAC) completed for ProfilerThreadInfoId=90.
+[2025-06-10 14:31:04.185 | debug | PId: 27164 | TId: 27668] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:31:04.185 | debug | PId: 27164 | TId: 27668] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:31:04.185 | debug | PId: 27164 | TId: 27668] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:31:04.185 | debug | PId: 27164 | TId: 27668] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:31:17.730 | debug | PId: 27164 | TId: 32888] Callback invoked: ThreadCreated(threadId=0x25383d6dc90)
+[2025-06-10 14:31:17.730 | debug | PId: 27164 | TId: 32888] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6dc90, osThreadId=32888)
+[2025-06-10 14:31:17.730 | debug | PId: 27164 | TId: 32888] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6dc90, osThreadId: 32888, osThreadHandle: 0x00000000000006E0) completed for ProfilerThreadInfoId=91.
+[2025-06-10 14:31:21.503 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:31:21.503 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:31:21.503 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:31:21.503 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:31:21.503 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:31:21.503 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 13
+[2025-06-10 14:31:21.503 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19335
+[2025-06-10 14:31:21.734 | debug | PId: 27164 | TId: 32888] Callback invoked: ThreadDestroyed(threadId=0x25383d6dc90)
+[2025-06-10 14:31:21.734 | debug | PId: 27164 | TId: 32888] Removing thread 25383d6dc90 from the trace context threads list.
+[2025-06-10 14:31:21.734 | debug | PId: 27164 | TId: 32888] ManagedThreadList: thread 0x25383d6dc90 cannot be unregister because not in the list
+[2025-06-10 14:31:21.734 | debug | PId: 27164 | TId: 32888] Removing thread 25383d6dc90 from the main managed thread list.
+[2025-06-10 14:31:21.850 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [  6.2 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      577 ms [  6.7 %]  DD_worker
+ 20832 |      389 ms [  4.5 %]  DD_exporter
+ 18072 |     2717 ms [   32 %]  DD_StackSampler
+ 32376 |       77 ms [  0.9 %] DD_rejit
+ 32128 |       15 ms [ 0.18 %] .NET Finalizer
+  4428 |      187 ms [  2.2 %]  .NET TP Worker
+ 26876 |       46 ms [ 0.54 %] .NET TP Gate
+ 11380 |      108 ms [  1.3 %]  .NET TP Worker
+ 21412 |       78 ms [ 0.91 %] .NET Timer
+ 33560 |       46 ms [ 0.54 %] .NET Long Running Task
+ 31920 |     1874 ms [   22 %]  .NET TP Worker
+ 30648 |       46 ms [ 0.54 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |       93 ms [  1.1 %] .NET Long Running Task
+ 27772 |       46 ms [ 0.54 %] .NET ThreadPool IO
+ 28484 |       62 ms [ 0.72 %] .NET ThreadPool IO
+ 28668 |       78 ms [ 0.91 %]  .NET TP Worker
+ 23724 |      124 ms [  1.4 %]  .NET TP Worker
+ 23188 |      124 ms [  1.4 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.18 %] 
+ 15684 |       78 ms [ 0.91 %] .NET System Events
+ 15544 |       46 ms [ 0.54 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 34292 |        0 ms [    0 %] 
+ 26320 |        0 ms [    0 %] 
+  9372 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:31:48.065 | debug | PId: 27164 | TId: 23696] Callback invoked: ThreadCreated(threadId=0x25383d6cff0)
+[2025-06-10 14:31:48.065 | debug | PId: 27164 | TId: 23696] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6cff0, osThreadId=23696)
+[2025-06-10 14:31:48.065 | debug | PId: 27164 | TId: 23696] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6cff0, osThreadId: 23696, osThreadHandle: 0x0000000000000F00) completed for ProfilerThreadInfoId=92.
+[2025-06-10 14:31:54.316 | debug | PId: 27164 | TId: 23696] Callback invoked: ThreadDestroyed(threadId=0x25383d6cff0)
+[2025-06-10 14:31:54.316 | debug | PId: 27164 | TId: 23696] Removing thread 25383d6cff0 from the trace context threads list.
+[2025-06-10 14:31:54.316 | debug | PId: 27164 | TId: 23696] ManagedThreadList: thread 0x25383d6cff0 cannot be unregister because not in the list
+[2025-06-10 14:31:54.316 | debug | PId: 27164 | TId: 23696] Removing thread 25383d6cff0 from the main managed thread list.
+[2025-06-10 14:31:58.219 | debug | PId: 27164 | TId: 26676] Callback invoked: ThreadCreated(threadId=0x25383d6dc90)
+[2025-06-10 14:31:58.219 | debug | PId: 27164 | TId: 26676] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6dc90, osThreadId=26676)
+[2025-06-10 14:31:58.219 | debug | PId: 27164 | TId: 26676] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6dc90, osThreadId: 26676, osThreadHandle: 0x0000000000000E58) completed for ProfilerThreadInfoId=93.
+[2025-06-10 14:32:02.223 | debug | PId: 27164 | TId: 26676] Callback invoked: ThreadDestroyed(threadId=0x25383d6dc90)
+[2025-06-10 14:32:02.223 | debug | PId: 27164 | TId: 26676] Removing thread 25383d6dc90 from the trace context threads list.
+[2025-06-10 14:32:02.223 | debug | PId: 27164 | TId: 26676] ManagedThreadList: thread 0x25383d6dc90 cannot be unregister because not in the list
+[2025-06-10 14:32:02.223 | debug | PId: 27164 | TId: 26676] Removing thread 25383d6dc90 from the main managed thread list.
+[2025-06-10 14:32:17.741 | debug | PId: 27164 | TId: 26388] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:32:17.741 | debug | PId: 27164 | TId: 26388] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=26388)
+[2025-06-10 14:32:17.741 | debug | PId: 27164 | TId: 26388] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 26388, osThreadHandle: 0x0000000000000DA8) completed for ProfilerThreadInfoId=94.
+[2025-06-10 14:32:21.859 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:32:21.859 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:32:21.859 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:32:21.859 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:32:21.859 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:32:21.859 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 5
+[2025-06-10 14:32:21.859 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19375
+[2025-06-10 14:32:22.094 | debug | PId: 27164 | TId: 26388] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:32:22.094 | debug | PId: 27164 | TId: 26388] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:32:22.094 | debug | PId: 27164 | TId: 26388] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:32:22.094 | debug | PId: 27164 | TId: 26388] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:32:22.240 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [    6 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      609 ms [  6.9 %]  DD_worker
+ 20832 |      405 ms [  4.6 %]  DD_exporter
+ 18072 |     2906 ms [   33 %]  DD_StackSampler
+ 32376 |       93 ms [    1 %] DD_rejit
+ 32128 |       15 ms [ 0.17 %] .NET Finalizer
+  4428 |      187 ms [  2.1 %]  .NET TP Worker
+ 26876 |       78 ms [ 0.88 %] .NET TP Gate
+ 11380 |      108 ms [  1.2 %]  .NET TP Worker
+ 21412 |       78 ms [ 0.88 %] .NET Timer
+ 33560 |       46 ms [ 0.52 %] .NET Long Running Task
+ 31920 |     1874 ms [   21 %]  .NET TP Worker
+ 30648 |       46 ms [ 0.52 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |       93 ms [    1 %] .NET Long Running Task
+ 27772 |       46 ms [ 0.52 %] .NET ThreadPool IO
+ 28484 |       78 ms [ 0.88 %] .NET ThreadPool IO
+ 28668 |       78 ms [ 0.88 %]  .NET TP Worker
+ 23724 |      124 ms [  1.4 %]  .NET TP Worker
+ 23188 |      140 ms [  1.6 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.17 %] 
+ 15684 |       78 ms [ 0.88 %] .NET System Events
+ 15544 |       46 ms [ 0.52 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 26320 |        0 ms [    0 %] 
+ 21072 |        0 ms [    0 %] 
+ 28740 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:32:40.436 | debug | PId: 27164 | TId: 12160] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:32:40.436 | debug | PId: 27164 | TId: 12160] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=12160)
+[2025-06-10 14:32:40.436 | debug | PId: 27164 | TId: 12160] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 12160, osThreadHandle: 0x0000000000000F7C) completed for ProfilerThreadInfoId=95.
+[2025-06-10 14:32:44.451 | debug | PId: 27164 | TId: 12160] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:32:44.451 | debug | PId: 27164 | TId: 12160] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:32:44.451 | debug | PId: 27164 | TId: 12160] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:32:44.451 | debug | PId: 27164 | TId: 12160] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:32:48.096 | debug | PId: 27164 | TId: 30472] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:32:48.096 | debug | PId: 27164 | TId: 30472] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=30472)
+[2025-06-10 14:32:48.096 | debug | PId: 27164 | TId: 30472] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 30472, osThreadHandle: 0x0000000000000DDC) completed for ProfilerThreadInfoId=96.
+[2025-06-10 14:32:52.099 | debug | PId: 27164 | TId: 30472] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:32:52.099 | debug | PId: 27164 | TId: 30472] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:32:52.099 | debug | PId: 27164 | TId: 30472] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:32:52.099 | debug | PId: 27164 | TId: 30472] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:33:17.749 | debug | PId: 27164 | TId: 26012] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:33:17.749 | debug | PId: 27164 | TId: 26012] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=26012)
+[2025-06-10 14:33:17.749 | debug | PId: 27164 | TId: 26012] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 26012, osThreadHandle: 0x0000000000000EB0) completed for ProfilerThreadInfoId=97.
+[2025-06-10 14:33:22.118 | debug | PId: 27164 | TId: 26012] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:33:22.118 | debug | PId: 27164 | TId: 26012] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:33:22.118 | debug | PId: 27164 | TId: 26012] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:33:22.118 | debug | PId: 27164 | TId: 26012] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:33:22.242 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:33:22.242 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:33:22.242 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:33:22.242 | debug | PId: 27164 | TId: 20832] ContentionProvider : 2
+[2025-06-10 14:33:22.242 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:33:22.242 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 8
+[2025-06-10 14:33:22.242 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19369
+[2025-06-10 14:33:22.570 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [  5.7 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      639 ms [  6.9 %]  DD_worker
+ 20832 |      437 ms [  4.7 %]  DD_exporter
+ 18072 |     3124 ms [   34 %]  DD_StackSampler
+ 32376 |      108 ms [  1.2 %] DD_rejit
+ 32128 |       15 ms [ 0.16 %] .NET Finalizer
+  4428 |      187 ms [    2 %]  .NET TP Worker
+ 26876 |       93 ms [    1 %] .NET TP Gate
+ 11380 |      108 ms [  1.2 %]  .NET TP Worker
+ 21412 |       78 ms [ 0.84 %] .NET Timer
+ 33560 |       46 ms [  0.5 %] .NET Long Running Task
+ 31920 |     1874 ms [   20 %]  .NET TP Worker
+ 30648 |       62 ms [ 0.67 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |      108 ms [  1.2 %] .NET Long Running Task
+ 27772 |       46 ms [  0.5 %] .NET ThreadPool IO
+ 28484 |       78 ms [ 0.84 %] .NET ThreadPool IO
+ 28668 |       93 ms [    1 %]  .NET TP Worker
+ 23724 |      155 ms [  1.7 %]  .NET TP Worker
+ 23188 |      140 ms [  1.5 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.16 %] 
+ 15684 |       93 ms [    1 %] .NET System Events
+ 15544 |       46 ms [  0.5 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 26320 |        0 ms [    0 %] 
+ 21072 |        0 ms [    0 %] 
+ 28912 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:33:48.117 | debug | PId: 27164 | TId: 30484] Callback invoked: ThreadCreated(threadId=0x25383d6e2e0)
+[2025-06-10 14:33:48.117 | debug | PId: 27164 | TId: 30484] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6e2e0, osThreadId=30484)
+[2025-06-10 14:33:48.117 | debug | PId: 27164 | TId: 30484] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6e2e0, osThreadId: 30484, osThreadHandle: 0x0000000000000E40) completed for ProfilerThreadInfoId=98.
+[2025-06-10 14:33:52.124 | debug | PId: 27164 | TId: 30484] Callback invoked: ThreadDestroyed(threadId=0x25383d6e2e0)
+[2025-06-10 14:33:52.124 | debug | PId: 27164 | TId: 30484] Removing thread 25383d6e2e0 from the trace context threads list.
+[2025-06-10 14:33:52.124 | debug | PId: 27164 | TId: 30484] ManagedThreadList: thread 0x25383d6e2e0 cannot be unregister because not in the list
+[2025-06-10 14:33:52.124 | debug | PId: 27164 | TId: 30484] Removing thread 25383d6e2e0 from the main managed thread list.
+[2025-06-10 14:34:17.756 | debug | PId: 27164 | TId: 21760] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:34:17.757 | debug | PId: 27164 | TId: 21760] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=21760)
+[2025-06-10 14:34:17.757 | debug | PId: 27164 | TId: 21760] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 21760, osThreadHandle: 0x0000000000000DB0) completed for ProfilerThreadInfoId=99.
+[2025-06-10 14:34:22.581 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:34:22.581 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:34:22.581 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:34:22.581 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:34:22.581 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:34:22.581 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 6
+[2025-06-10 14:34:22.581 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19391
+[2025-06-10 14:34:22.944 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [  5.5 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      718 ms [  7.5 %]  DD_worker
+ 20832 |      500 ms [  5.2 %]  DD_exporter
+ 18072 |     3265 ms [   34 %]  DD_StackSampler
+ 32376 |      124 ms [  1.3 %] DD_rejit
+ 32128 |       30 ms [ 0.31 %] .NET Finalizer
+  4428 |      187 ms [  1.9 %]  .NET TP Worker
+ 26876 |       93 ms [ 0.97 %] .NET TP Gate
+ 11380 |      108 ms [  1.1 %]  .NET TP Worker
+ 21412 |       78 ms [ 0.81 %] .NET Timer
+ 33560 |       46 ms [ 0.48 %] .NET Long Running Task
+ 31920 |     1889 ms [   20 %]  .NET TP Worker
+ 30648 |       62 ms [ 0.64 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |      108 ms [  1.1 %] .NET Long Running Task
+ 27772 |       62 ms [ 0.64 %] .NET ThreadPool IO
+ 28484 |       78 ms [ 0.81 %] .NET ThreadPool IO
+ 28668 |      109 ms [  1.1 %]  .NET TP Worker
+ 23724 |      155 ms [  1.6 %]  .NET TP Worker
+ 23188 |      156 ms [  1.6 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.16 %] 
+ 15684 |       93 ms [ 0.97 %] .NET System Events
+ 15544 |       46 ms [ 0.48 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 21072 |        0 ms [    0 %] 
+ 33296 |        0 ms [    0 %] 
+ 21760 |        0 ms [    0 %] .NET Tiered Compilation Worker
+ 30364 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:34:24.689 | debug | PId: 27164 | TId: 21760] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:34:24.689 | debug | PId: 27164 | TId: 21760] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:34:24.689 | debug | PId: 27164 | TId: 21760] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:34:24.689 | debug | PId: 27164 | TId: 21760] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:34:59.108 | debug | PId: 27164 | TId: 29724] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:34:59.108 | debug | PId: 27164 | TId: 29724] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=29724)
+[2025-06-10 14:34:59.108 | debug | PId: 27164 | TId: 29724] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 29724, osThreadHandle: 0x0000000000000F4C) completed for ProfilerThreadInfoId=100.
+[2025-06-10 14:35:03.113 | debug | PId: 27164 | TId: 29724] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:35:03.113 | debug | PId: 27164 | TId: 29724] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:35:03.113 | debug | PId: 27164 | TId: 29724] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:35:03.113 | debug | PId: 27164 | TId: 29724] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:35:10.832 | debug | PId: 27164 | TId: 23460] Callback invoked: ThreadCreated(threadId=0x25383d6dc90)
+[2025-06-10 14:35:10.832 | debug | PId: 27164 | TId: 23460] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6dc90, osThreadId=23460)
+[2025-06-10 14:35:10.832 | debug | PId: 27164 | TId: 23460] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6dc90, osThreadId: 23460, osThreadHandle: 0x0000000000000DB0) completed for ProfilerThreadInfoId=101.
+[2025-06-10 14:35:14.844 | debug | PId: 27164 | TId: 23460] Callback invoked: ThreadDestroyed(threadId=0x25383d6dc90)
+[2025-06-10 14:35:14.844 | debug | PId: 27164 | TId: 23460] Removing thread 25383d6dc90 from the trace context threads list.
+[2025-06-10 14:35:14.844 | debug | PId: 27164 | TId: 23460] ManagedThreadList: thread 0x25383d6dc90 cannot be unregister because not in the list
+[2025-06-10 14:35:14.844 | debug | PId: 27164 | TId: 23460] Removing thread 25383d6dc90 from the main managed thread list.
+[2025-06-10 14:35:17.771 | debug | PId: 27164 | TId: 9156] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:35:17.771 | debug | PId: 27164 | TId: 9156] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=9156)
+[2025-06-10 14:35:17.771 | debug | PId: 27164 | TId: 9156] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 9156, osThreadHandle: 0x0000000000000724) completed for ProfilerThreadInfoId=102.
+[2025-06-10 14:35:21.785 | debug | PId: 27164 | TId: 9156] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:35:21.785 | debug | PId: 27164 | TId: 9156] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:35:21.785 | debug | PId: 27164 | TId: 9156] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:35:21.785 | debug | PId: 27164 | TId: 9156] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:35:22.949 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:35:22.949 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:35:22.949 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:35:22.949 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:35:22.949 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:35:22.949 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 5
+[2025-06-10 14:35:22.949 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19380
+[2025-06-10 14:35:23.300 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [  5.3 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      812 ms [    8 %]  DD_worker
+ 20832 |      546 ms [  5.4 %]  DD_exporter
+ 18072 |     3483 ms [   35 %]  DD_StackSampler
+ 32376 |      124 ms [  1.2 %] DD_rejit
+ 32128 |       30 ms [  0.3 %] .NET Finalizer
+  4428 |      187 ms [  1.9 %]  .NET TP Worker
+ 26876 |      109 ms [  1.1 %] .NET TP Gate
+ 11380 |      139 ms [  1.4 %]  .NET TP Worker
+ 21412 |       78 ms [ 0.77 %] .NET Timer
+ 33560 |       46 ms [ 0.46 %] .NET Long Running Task
+ 31920 |     1889 ms [   19 %]  .NET TP Worker
+ 30648 |       62 ms [ 0.61 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |      108 ms [  1.1 %] .NET Long Running Task
+ 27772 |       62 ms [ 0.61 %] .NET ThreadPool IO
+ 28484 |       78 ms [ 0.77 %] .NET ThreadPool IO
+ 28668 |      140 ms [  1.4 %]  .NET TP Worker
+ 23724 |      155 ms [  1.5 %]  .NET TP Worker
+ 23188 |      156 ms [  1.5 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.15 %] 
+ 15684 |       93 ms [ 0.92 %] .NET System Events
+ 15544 |       62 ms [ 0.61 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 21072 |        0 ms [    0 %] 
+ 33296 |        0 ms [    0 %] 
+ 33660 |       15 ms [ 0.15 %] tokio-runtime-worker
+
+
+[2025-06-10 14:36:16.156 | debug | PId: 27164 | TId: 6784] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:36:16.156 | debug | PId: 27164 | TId: 6784] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=6784)
+[2025-06-10 14:36:16.156 | debug | PId: 27164 | TId: 6784] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 6784, osThreadHandle: 0x0000000000000DC0) completed for ProfilerThreadInfoId=103.
+[2025-06-10 14:36:20.165 | debug | PId: 27164 | TId: 6784] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:36:20.165 | debug | PId: 27164 | TId: 6784] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:36:20.165 | debug | PId: 27164 | TId: 6784] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:36:20.165 | debug | PId: 27164 | TId: 6784] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:36:23.303 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:36:23.303 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 1
+[2025-06-10 14:36:23.303 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 1
+[2025-06-10 14:36:23.303 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:36:23.303 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:36:23.303 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 5
+[2025-06-10 14:36:23.303 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19355
+[2025-06-10 14:36:23.653 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [    5 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      858 ms [  8.2 %]  DD_worker
+ 20832 |      562 ms [  5.4 %]  DD_exporter
+ 18072 |     3717 ms [   35 %]  DD_StackSampler
+ 32376 |      140 ms [  1.3 %] DD_rejit
+ 32128 |       30 ms [ 0.29 %] .NET Finalizer
+  4428 |      187 ms [  1.8 %]  .NET TP Worker
+ 26876 |      109 ms [    1 %] .NET TP Gate
+ 11380 |      139 ms [  1.3 %]  .NET TP Worker
+ 21412 |       78 ms [ 0.74 %] .NET Timer
+ 33560 |       46 ms [ 0.44 %] .NET Long Running Task
+ 31920 |     1921 ms [   18 %]  .NET TP Worker
+ 30648 |       62 ms [ 0.59 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |      108 ms [    1 %] .NET Long Running Task
+ 27772 |       62 ms [ 0.59 %] .NET ThreadPool IO
+ 28484 |       78 ms [ 0.74 %] .NET ThreadPool IO
+ 28668 |      140 ms [  1.3 %]  .NET TP Worker
+ 23724 |      155 ms [  1.5 %]  .NET TP Worker
+ 23188 |      156 ms [  1.5 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.14 %] 
+ 15684 |      109 ms [    1 %] .NET System Events
+ 15544 |       77 ms [ 0.73 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 33296 |        0 ms [    0 %] 
+  9892 |        0 ms [    0 %] 
+ 22440 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:36:51.063 | debug | PId: 27164 | TId: 12500] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:36:51.063 | debug | PId: 27164 | TId: 12500] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=12500)
+[2025-06-10 14:36:51.063 | debug | PId: 27164 | TId: 12500] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 12500, osThreadHandle: 0x0000000000000F7C) completed for ProfilerThreadInfoId=104.
+[2025-06-10 14:36:55.070 | debug | PId: 27164 | TId: 12500] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:36:55.070 | debug | PId: 27164 | TId: 12500] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:36:55.070 | debug | PId: 27164 | TId: 12500] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:36:55.070 | debug | PId: 27164 | TId: 12500] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:37:17.784 | debug | PId: 27164 | TId: 9096] Callback invoked: ThreadCreated(threadId=0x25383d6cff0)
+[2025-06-10 14:37:17.784 | debug | PId: 27164 | TId: 9096] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6cff0, osThreadId=9096)
+[2025-06-10 14:37:17.784 | debug | PId: 27164 | TId: 9096] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6cff0, osThreadId: 9096, osThreadHandle: 0x0000000000000F10) completed for ProfilerThreadInfoId=105.
+[2025-06-10 14:37:21.792 | debug | PId: 27164 | TId: 9096] Callback invoked: ThreadDestroyed(threadId=0x25383d6cff0)
+[2025-06-10 14:37:21.792 | debug | PId: 27164 | TId: 9096] Removing thread 25383d6cff0 from the trace context threads list.
+[2025-06-10 14:37:21.792 | debug | PId: 27164 | TId: 9096] ManagedThreadList: thread 0x25383d6cff0 cannot be unregister because not in the list
+[2025-06-10 14:37:21.792 | debug | PId: 27164 | TId: 9096] Removing thread 25383d6cff0 from the main managed thread list.
+[2025-06-10 14:37:23.660 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:37:23.660 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:37:23.660 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:37:23.660 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:37:23.660 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:37:23.660 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 7
+[2025-06-10 14:37:23.660 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19400
+[2025-06-10 14:37:24.001 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [  4.9 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      905 ms [  8.3 %]  DD_worker
+ 20832 |      624 ms [  5.7 %]  DD_exporter
+ 18072 |     3937 ms [   36 %]  DD_StackSampler
+ 32376 |      140 ms [  1.3 %] DD_rejit
+ 32128 |       30 ms [ 0.28 %] .NET Finalizer
+  4428 |      218 ms [    2 %]  .NET TP Worker
+ 26876 |      125 ms [  1.1 %] .NET TP Gate
+ 11380 |      155 ms [  1.4 %]  .NET TP Worker
+ 21412 |       93 ms [ 0.85 %] .NET Timer
+ 33560 |       46 ms [ 0.42 %] .NET Long Running Task
+ 31920 |     1952 ms [   18 %]  .NET TP Worker
+ 30648 |       62 ms [ 0.57 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |      108 ms [ 0.99 %] .NET Long Running Task
+ 27772 |       62 ms [ 0.57 %] .NET ThreadPool IO
+ 28484 |       78 ms [ 0.72 %] .NET ThreadPool IO
+ 28668 |      140 ms [  1.3 %]  .NET TP Worker
+ 23724 |      155 ms [  1.4 %]  .NET TP Worker
+ 23188 |      156 ms [  1.4 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.14 %] 
+ 15684 |      109 ms [    1 %] .NET System Events
+ 15544 |       92 ms [ 0.84 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+ 33296 |        0 ms [    0 %] 
+  9892 |        0 ms [    0 %] 
+ 22792 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:37:31.157 | debug | PId: 27164 | TId: 8744] Callback invoked: ThreadCreated(threadId=0x25383d6dc90)
+[2025-06-10 14:37:31.157 | debug | PId: 27164 | TId: 8744] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6dc90, osThreadId=8744)
+[2025-06-10 14:37:31.157 | debug | PId: 27164 | TId: 8744] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6dc90, osThreadId: 8744, osThreadHandle: 0x0000000000000FF0) completed for ProfilerThreadInfoId=106.
+[2025-06-10 14:37:35.170 | debug | PId: 27164 | TId: 8744] Callback invoked: ThreadDestroyed(threadId=0x25383d6dc90)
+[2025-06-10 14:37:35.170 | debug | PId: 27164 | TId: 8744] Removing thread 25383d6dc90 from the trace context threads list.
+[2025-06-10 14:37:35.170 | debug | PId: 27164 | TId: 8744] ManagedThreadList: thread 0x25383d6dc90 cannot be unregister because not in the list
+[2025-06-10 14:37:35.170 | debug | PId: 27164 | TId: 8744] Removing thread 25383d6dc90 from the main managed thread list.
+[2025-06-10 14:37:41.199 | debug | PId: 27164 | TId: 19616] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:37:41.199 | debug | PId: 27164 | TId: 19616] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=19616)
+[2025-06-10 14:37:41.199 | debug | PId: 27164 | TId: 19616] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 19616, osThreadHandle: 0x0000000000000D8C) completed for ProfilerThreadInfoId=107.
+[2025-06-10 14:37:45.208 | debug | PId: 27164 | TId: 19616] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:37:45.208 | debug | PId: 27164 | TId: 19616] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:37:45.208 | debug | PId: 27164 | TId: 19616] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:37:45.208 | debug | PId: 27164 | TId: 19616] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:38:17.796 | debug | PId: 27164 | TId: 25764] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:38:17.796 | debug | PId: 27164 | TId: 25764] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=25764)
+[2025-06-10 14:38:17.796 | debug | PId: 27164 | TId: 25764] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 25764, osThreadHandle: 0x0000000000000DE8) completed for ProfilerThreadInfoId=108.
+[2025-06-10 14:38:21.798 | debug | PId: 27164 | TId: 25764] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:38:21.798 | debug | PId: 27164 | TId: 25764] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:38:21.798 | debug | PId: 27164 | TId: 25764] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:38:21.798 | debug | PId: 27164 | TId: 25764] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:38:24.016 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:38:24.016 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:38:24.016 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:38:24.016 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:38:24.016 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:38:24.016 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 4
+[2025-06-10 14:38:24.016 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19360
+[2025-06-10 14:38:24.401 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [  4.7 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |      983 ms [  8.8 %]  DD_worker
+ 20832 |      640 ms [  5.7 %]  DD_exporter
+ 18072 |     4030 ms [   36 %]  DD_StackSampler
+ 32376 |      140 ms [  1.2 %] DD_rejit
+ 32128 |       30 ms [ 0.27 %] .NET Finalizer
+  4428 |      218 ms [  1.9 %]  .NET TP Worker
+ 26876 |      125 ms [  1.1 %] .NET TP Gate
+ 11380 |      155 ms [  1.4 %]  .NET TP Worker
+ 21412 |       93 ms [ 0.83 %] .NET Timer
+ 33560 |       46 ms [ 0.41 %] .NET Long Running Task
+ 31920 |     1968 ms [   18 %]  .NET TP Worker
+ 30648 |       78 ms [  0.7 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |      108 ms [ 0.96 %] .NET Long Running Task
+ 27772 |       62 ms [ 0.55 %] .NET ThreadPool IO
+ 28484 |       78 ms [  0.7 %] .NET ThreadPool IO
+ 28668 |      140 ms [  1.2 %]  .NET TP Worker
+ 23724 |      155 ms [  1.4 %]  .NET TP Worker
+ 23188 |      171 ms [  1.5 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.13 %] 
+ 15684 |      109 ms [ 0.97 %] .NET System Events
+ 15544 |       92 ms [ 0.82 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+  9892 |        0 ms [    0 %] 
+ 31176 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:38:50.173 | debug | PId: 27164 | TId: 17748] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:38:50.173 | debug | PId: 27164 | TId: 17748] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=17748)
+[2025-06-10 14:38:50.173 | debug | PId: 27164 | TId: 17748] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 17748, osThreadHandle: 0x0000000000000ED4) completed for ProfilerThreadInfoId=109.
+[2025-06-10 14:38:54.181 | debug | PId: 27164 | TId: 17748] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:38:54.181 | debug | PId: 27164 | TId: 17748] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:38:54.181 | debug | PId: 27164 | TId: 17748] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:38:54.181 | debug | PId: 27164 | TId: 17748] Removing thread 25383d6bd00 from the main managed thread list.
+[2025-06-10 14:39:17.795 | debug | PId: 27164 | TId: 31108] Callback invoked: ThreadCreated(threadId=0x25383d6dc90)
+[2025-06-10 14:39:17.795 | debug | PId: 27164 | TId: 31108] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6dc90, osThreadId=31108)
+[2025-06-10 14:39:17.795 | debug | PId: 27164 | TId: 31108] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6dc90, osThreadId: 31108, osThreadHandle: 0x0000000000000EC8) completed for ProfilerThreadInfoId=110.
+[2025-06-10 14:39:24.417 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:39:24.417 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:39:24.417 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:39:24.417 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:39:24.417 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:39:24.417 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 1
+[2025-06-10 14:39:24.417 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19390
+[2025-06-10 14:39:24.794 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      530 ms [  4.6 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |     1093 ms [  9.6 %]  DD_worker
+ 20832 |      703 ms [  6.2 %]  DD_exporter
+ 18072 |     4093 ms [   36 %]  DD_StackSampler
+ 32376 |      140 ms [  1.2 %] DD_rejit
+ 32128 |       30 ms [ 0.26 %] .NET Finalizer
+  4428 |      218 ms [  1.9 %]  .NET TP Worker
+ 26876 |      125 ms [  1.1 %] .NET TP Gate
+ 11380 |      155 ms [  1.4 %]  .NET TP Worker
+ 21412 |       93 ms [ 0.82 %] .NET Timer
+ 33560 |       46 ms [  0.4 %] .NET Long Running Task
+ 31920 |     1968 ms [   17 %]  .NET TP Worker
+ 30648 |       93 ms [ 0.82 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |      108 ms [ 0.95 %] .NET Long Running Task
+ 27772 |       62 ms [ 0.54 %] .NET ThreadPool IO
+ 28484 |       78 ms [ 0.68 %] .NET ThreadPool IO
+ 28668 |      140 ms [  1.2 %]  .NET TP Worker
+ 23724 |      155 ms [  1.4 %]  .NET TP Worker
+ 23188 |      171 ms [  1.5 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.13 %] 
+ 15684 |      109 ms [ 0.96 %] .NET System Events
+ 15544 |       92 ms [ 0.81 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+  9892 |        0 ms [    0 %] 
+ 15048 |        0 ms [    0 %] 
+ 31108 |        0 ms [    0 %] .NET Tiered Compilation Worker
+ 32660 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:39:25.486 | debug | PId: 27164 | TId: 31108] Callback invoked: ThreadDestroyed(threadId=0x25383d6dc90)
+[2025-06-10 14:39:25.486 | debug | PId: 27164 | TId: 31108] Removing thread 25383d6dc90 from the trace context threads list.
+[2025-06-10 14:39:25.486 | debug | PId: 27164 | TId: 31108] ManagedThreadList: thread 0x25383d6dc90 cannot be unregister because not in the list
+[2025-06-10 14:39:25.486 | debug | PId: 27164 | TId: 31108] Removing thread 25383d6dc90 from the main managed thread list.
+[2025-06-10 14:39:48.269 | debug | PId: 27164 | TId: 23420] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:39:48.269 | debug | PId: 27164 | TId: 23420] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=23420)
+[2025-06-10 14:39:48.269 | debug | PId: 27164 | TId: 23420] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 23420, osThreadHandle: 0x0000000000000F54) completed for ProfilerThreadInfoId=111.
+[2025-06-10 14:39:52.289 | debug | PId: 27164 | TId: 23420] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:39:52.289 | debug | PId: 27164 | TId: 23420] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:39:52.289 | debug | PId: 27164 | TId: 23420] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:39:52.289 | debug | PId: 27164 | TId: 23420] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:40:11.618 | debug | PId: 27164 | TId: 10500] Callback invoked: ThreadCreated(threadId=0x25383d6c9a0)
+[2025-06-10 14:40:11.618 | debug | PId: 27164 | TId: 10500] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6c9a0, osThreadId=10500)
+[2025-06-10 14:40:11.618 | debug | PId: 27164 | TId: 10500] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6c9a0, osThreadId: 10500, osThreadHandle: 0x0000000000000F58) completed for ProfilerThreadInfoId=112.
+[2025-06-10 14:40:15.619 | debug | PId: 27164 | TId: 10500] Callback invoked: ThreadDestroyed(threadId=0x25383d6c9a0)
+[2025-06-10 14:40:15.619 | debug | PId: 27164 | TId: 10500] Removing thread 25383d6c9a0 from the trace context threads list.
+[2025-06-10 14:40:15.619 | debug | PId: 27164 | TId: 10500] ManagedThreadList: thread 0x25383d6c9a0 cannot be unregister because not in the list
+[2025-06-10 14:40:15.619 | debug | PId: 27164 | TId: 10500] Removing thread 25383d6c9a0 from the main managed thread list.
+[2025-06-10 14:40:18.282 | debug | PId: 27164 | TId: 4132] Callback invoked: ThreadCreated(threadId=0x25383d6dc90)
+[2025-06-10 14:40:18.282 | debug | PId: 27164 | TId: 4132] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6dc90, osThreadId=4132)
+[2025-06-10 14:40:18.282 | debug | PId: 27164 | TId: 4132] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6dc90, osThreadId: 4132, osThreadHandle: 0x0000000000000DDC) completed for ProfilerThreadInfoId=113.
+[2025-06-10 14:40:22.287 | debug | PId: 27164 | TId: 4132] Callback invoked: ThreadDestroyed(threadId=0x25383d6dc90)
+[2025-06-10 14:40:22.287 | debug | PId: 27164 | TId: 4132] Removing thread 25383d6dc90 from the trace context threads list.
+[2025-06-10 14:40:22.287 | debug | PId: 27164 | TId: 4132] ManagedThreadList: thread 0x25383d6dc90 cannot be unregister because not in the list
+[2025-06-10 14:40:22.287 | debug | PId: 27164 | TId: 4132] Removing thread 25383d6dc90 from the main managed thread list.
+[2025-06-10 14:40:24.801 | debug | PId: 27164 | TId: 20832] Collected samples per provider:
+[2025-06-10 14:40:24.801 | debug | PId: 27164 | TId: 20832] GarbageCollectorProvider : 0
+[2025-06-10 14:40:24.801 | debug | PId: 27164 | TId: 20832] StopTheWorldGCProvider : 0
+[2025-06-10 14:40:24.801 | debug | PId: 27164 | TId: 20832] ContentionProvider : 0
+[2025-06-10 14:40:24.801 | debug | PId: 27164 | TId: 20832] ExceptionsProvider : 0
+[2025-06-10 14:40:24.801 | debug | PId: 27164 | TId: 20832] CpuTimeProvider : 11
+[2025-06-10 14:40:24.801 | debug | PId: 27164 | TId: 20832] WallTimeProvider : 19385
+[2025-06-10 14:40:25.132 | debug | PId: 27164 | TId: 20832] 
+   TID |    CPU Time     Usage  Name
+--------------------------------------------
+ 32676 |      546 ms [  4.6 %] 
+  7964 |        0 ms [    0 %] .NET EventPipe
+ 27688 |        0 ms [    0 %] .NET Debugger
+ 31236 |        0 ms [    0 %] 
+ 14628 |        0 ms [    0 %] 
+ 29960 |        0 ms [    0 %] 
+  3064 |        0 ms [    0 %] 
+ 23288 |        0 ms [    0 %] 
+ 32396 |        0 ms [    0 %]  DD_Watcher
+ 34504 |     1124 ms [  9.5 %]  DD_worker
+ 20832 |      718 ms [  6.1 %]  DD_exporter
+ 18072 |     4218 ms [   36 %]  DD_StackSampler
+ 32376 |      140 ms [  1.2 %] DD_rejit
+ 32128 |       30 ms [ 0.25 %] .NET Finalizer
+  4428 |      234 ms [    2 %]  .NET TP Worker
+ 26876 |      125 ms [  1.1 %] .NET TP Gate
+ 11380 |      155 ms [  1.3 %]  .NET TP Worker
+ 21412 |      109 ms [ 0.92 %] .NET Timer
+ 33560 |       46 ms [ 0.39 %] .NET Long Running Task
+ 31920 |     1984 ms [   17 %]  .NET TP Worker
+ 30648 |       93 ms [ 0.79 %] .NET Long Running Task
+ 33608 |        0 ms [    0 %] 
+ 21100 |      124 ms [  1.1 %] .NET Long Running Task
+ 27772 |       78 ms [ 0.66 %] .NET ThreadPool IO
+ 28484 |       78 ms [ 0.66 %] .NET ThreadPool IO
+ 28668 |      156 ms [  1.3 %]  .NET TP Worker
+ 23724 |      171 ms [  1.4 %]  .NET TP Worker
+ 23188 |      202 ms [  1.7 %]  .NET TP Worker
+ 34600 |       15 ms [ 0.13 %] 
+ 15684 |      125 ms [  1.1 %] .NET System Events
+ 15544 |       92 ms [ 0.78 %] 
+ 31628 |        0 ms [    0 %] 
+ 32956 |        0 ms [    0 %] 
+  9892 |        0 ms [    0 %] 
+ 15048 |        0 ms [    0 %] 
+ 27680 |        0 ms [    0 %] tokio-runtime-worker
+
+
+[2025-06-10 14:41:01.746 | debug | PId: 27164 | TId: 29420] Callback invoked: ThreadCreated(threadId=0x25383d6bd00)
+[2025-06-10 14:41:01.746 | debug | PId: 27164 | TId: 29420] Callback invoked: ThreadAssignedToOSThread(managedThreadId=0x25383d6bd00, osThreadId=29420)
+[2025-06-10 14:41:01.746 | debug | PId: 27164 | TId: 29420] ManagedThreadList::SetThreadOsInfo(clrThreadId: 0x25383d6bd00, osThreadId: 29420, osThreadHandle: 0x0000000000000EBC) completed for ProfilerThreadInfoId=114.
+[2025-06-10 14:41:05.750 | debug | PId: 27164 | TId: 29420] Callback invoked: ThreadDestroyed(threadId=0x25383d6bd00)
+[2025-06-10 14:41:05.750 | debug | PId: 27164 | TId: 29420] Removing thread 25383d6bd00 from the trace context threads list.
+[2025-06-10 14:41:05.750 | debug | PId: 27164 | TId: 29420] ManagedThreadList: thread 0x25383d6bd00 cannot be unregister because not in the list
+[2025-06-10 14:41:05.750 | debug | PId: 27164 | TId: 29420] Removing thread 25383d6bd00 from the main managed thread list.

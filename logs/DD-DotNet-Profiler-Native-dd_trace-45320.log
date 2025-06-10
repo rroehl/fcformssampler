@@ -1,0 +1,16 @@
+[2025-05-22 13:58:10.531 | info | PId: 45320 | TId: 41452] Profiler DLL loaded.
+[2025-05-22 13:58:10.532 | info | PId: 45320 | TId: 41452] Profiler version = 3.16.0
+[2025-05-22 13:58:10.532 | info | PId: 45320 | TId: 41452] Pointer size: 64 bits.
+[2025-05-22 13:58:10.543 | info | PId: 45320 | TId: 41452] Configuration: DD_PROFILING_CPU_ENABLED env var is not set - '1' is used as default value
+[2025-05-22 13:58:10.543 | info | PId: 45320 | TId: 41452] Configuration: DD_PROFILING_WALLTIME_ENABLED env var is not set - '1' is used as default value
+[2025-05-22 13:58:10.543 | info | PId: 45320 | TId: 41452] Configuration: DD_PROFILING_EXCEPTION_ENABLED env var is not set - '1' is used as default value
+[2025-05-22 13:58:10.543 | info | PId: 45320 | TId: 41452] Configuration: DD_PROFILING_ALLOCATION_ENABLED env var is not set - '0' is used as default value
+[2025-05-22 13:58:10.543 | info | PId: 45320 | TId: 41452] Configuration: DD_PROFILING_CONTENTION_ENABLED env var is not set - '1' is used as default value
+[2025-05-22 13:58:10.543 | info | PId: 45320 | TId: 41452] Configuration: DD_PROFILING_GC_ENABLED env var is not set - '1' is used as default value
+[2025-05-22 13:58:10.543 | info | PId: 45320 | TId: 41452] Configuration: DD_PROFILING_HEAP_ENABLED env var is not set - '0' is used as default value
+[2025-05-22 13:58:10.544 | info | PId: 45320 | TId: 41452] Configuration: DD_SERVICE env var is not set - 'dd-trace.exe' is used as default value
+[2025-05-22 13:58:10.544 | info | PId: 45320 | TId: 41452] Configuration: DD_INTERNAL_PROFILING_ETW_ENABLED env var is not set - '1' is used as default value
+[2025-05-22 13:58:10.544 | info | PId: 45320 | TId: 41452] .NET Profiler deployment mode: Manual
+[2025-05-22 13:58:10.544 | info | PId: 45320 | TId: 41452] .NET Profiler environment variable 'DD_PROFILING_ENABLED' was not set. The .NET profiler will be disabled.
+[2025-05-22 13:58:10.544 | info | PId: 45320 | TId: 41452] DllGetClassObject(): Profiling is not enabled.
+[2025-05-22 13:58:11.122 | info | PId: 45320 | TId: 41452] Profiler DLL unloaded.

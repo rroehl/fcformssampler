@@ -1,0 +1,4 @@
+[2025-05-13 19:46:13.653 | info | PId: 13536 | TId: 9452] No "DD_TRACE_DEBUG" environment variable has been found. Enable debug log = 0 (default).
+[2025-05-13 19:46:13.655 | info | PId: 13536 | TId: 9452] Crashtracking - Registering unhandled exception filter.
+[2025-05-13 19:46:13.655 | warning | PId: 13536 | TId: 9452] Crashtracking - Failed to get module handle for coreclr.dll or clr.dll
+[2025-05-13 19:46:13.655 | info | PId: 13536 | TId: 9452] DynamicDispatcherImpl::LoadConfiguration: Reading configuration file from: "C:\\Program Files\\Datadog\\.NET Tracer\\win-x64\\loader.conf"

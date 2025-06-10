@@ -1,0 +1,44 @@
+05/20/25 03:30:52.031 PM [11560|24000] [info] Datadog CLR Profiler 3.16.0 on Windows (amd64)
+05/20/25 03:30:52.032 PM [11560|24000] [info] ProcessName: formsample.exe
+05/20/25 03:30:52.032 PM [11560|24000] [info] Process CommandLine: "C:\Users\rroehl\projects\DataDog\formsample\bin\Debug\net8.0-windows\formsample.exe" 
+05/20/25 03:30:52.032 PM [11560|24000] [info] Environment variables:
+05/20/25 03:30:52.032 PM [11560|24000] [info]   DD_DOTNET_TRACER_HOME=C:\Program Files\Datadog\.NET Tracer\
+05/20/25 03:30:52.032 PM [11560|24000] [info]   DD_ENV=dev1
+05/20/25 03:30:52.032 PM [11560|24000] [info]   DD_VERSION=7.64.3
+05/20/25 03:30:52.032 PM [11560|24000] [info] Runtime Information: .NET 8.0.16
+05/20/25 03:30:52.033 PM [11560|24000] [info] IAST Callsite instrumentation is disabled.
+05/20/25 03:30:52.033 PM [11560|43644] [info] Initializing ReJIT request thread.
+05/20/25 03:30:52.033 PM [11560|24000] [info] RASP Callsite instrumentation is disabled.
+05/20/25 03:30:52.033 PM [11560|24000] [info] Callsite instrumentation is disabled.
+05/20/25 03:30:52.033 PM [11560|24000] [info] Profiler filepath: C:\Program Files\Datadog\.NET Tracer\win-x64\Datadog.Tracer.Native.dll
+05/20/25 03:30:52.033 PM [11560|24000] [info] Profiler attached.
+05/20/25 03:30:52.035 PM [11560|24000] [info] COR library: System.Private.CoreLib 8.0.0
+05/20/25 03:30:52.075 PM [11560|24000] [info] JITCompilationStarted: Startup hook registered in function_id=140726733242616 token=100663298 name=formsample.Program.Main(), assembly_name=formsample app_domain_id=2301335813952 domain_neutral=0
+05/20/25 03:30:52.087 PM [11560|24000] [info] ModuleLoadFinished: Datadog.Trace.ClrProfiler.Managed.Loader loaded into AppDomain 2301335813952 clrhost
+05/20/25 03:30:52.155 PM [11560|24000] [info] ModuleLoadFinished: Datadog.Trace v3.16.0.0 - Fix PInvoke maps
+05/20/25 03:30:52.156 PM [11560|24000] [info] Rewriting PInvokes to native for Datadog.Trace.ClrProfiler.NativeMethods+Windows: C:\Program Files\Datadog\.NET Tracer\win-x64\Datadog.Tracer.Native.dll
+05/20/25 03:30:52.158 PM [11560|24000] [info] Rewriting PInvokes to native for Datadog.Trace.Debugger.PInvoke.DebuggerNativeMethods+Windows: C:\Program Files\Datadog\.NET Tracer\win-x64\Datadog.Tracer.Native.dll
+05/20/25 03:30:52.158 PM [11560|24000] [info] Rewriting PInvokes to native for Datadog.Trace.FaultTolerant.FaultTolerantNativeMethods+Windows: C:\Program Files\Datadog\.NET Tracer\win-x64\Datadog.Tracer.Native.dll
+05/20/25 03:30:52.158 PM [11560|24000] [info] Rewriting PInvokes to native for Datadog.Trace.LibDatadog.NativeInterop+Exporter: C:\Program Files\Datadog\.NET Tracer\win-x64\datadog_profiling_ffi.dll
+05/20/25 03:30:52.158 PM [11560|24000] [info] Rewriting PInvokes to native for Datadog.Trace.LibDatadog.NativeInterop+Config: C:\Program Files\Datadog\.NET Tracer\win-x64\datadog_profiling_ffi.dll
+05/20/25 03:30:52.162 PM [11560|24000] [info] Rewriting PInvokes to native for Datadog.Trace.NativeLoader+NativeMethods: C:\Program Files\Datadog\.NET Tracer\win-x64\Datadog.Trace.ClrProfiler.Native.dll
+05/20/25 03:30:52.164 PM [11560|24000] [info] Successfully added method DistributedTracer.__GetInstanceForProfiler__ for ModuleID=140726736469464
+05/20/25 03:30:52.165 PM [11560|24000] [info] Rewriting Instrumentation.GetNativeTracerVersion() => PROFILER_VERSION
+05/20/25 03:30:52.165 PM [11560|24000] [info] AssemblyLoadFinished: Datadog.Trace.dll v3.16.0.0 matched profiler version v3.16.0.0
+05/20/25 03:30:52.165 PM [11560|24000] [info] ByRef Instrumentation enabled.
+05/20/25 03:30:52.165 PM [11560|24000] [info] CallTargetState ByRef enabled.
+05/20/25 03:30:52.165 PM [11560|24000] [info] AddTraceAttributeInstrumentation: Initialized assembly=Datadog.Trace, Version=3.16.0.0, Culture=neutral, PublicKeyToken=def86d061d0d2eeb, type=Datadog.Trace.ClrProfiler.AutoInstrumentation.TraceAnnotations.TraceAnnotationsIntegration
+05/20/25 03:30:52.465 PM [11560|24000] [info] Total number of modules to analyze: 19
+05/20/25 03:30:52.502 PM [11560|43644] [info] Request ReJIT done for 10 methods
+05/20/25 03:30:52.502 PM [11560|24000] [info] RegisterCallTargetDefinitions: Added 718 call targets (enabled: 578, enabled categories: 1) 
+05/20/25 03:30:52.503 PM [11560|41220] [info] NGEN:: Processed with 5 inliners [ModuleId=140726742785360,MethodDef=100665944]
+05/20/25 03:30:52.503 PM [11560|43644] [info] Request ReJIT done for 5 methods
+05/20/25 03:30:52.505 PM [11560|32440] [info] *** CallTarget_RewriterCallback() Finished: System.Net.Http.HttpClientHandler.SendAsync() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.Http.HttpClient.HttpClientHandler.HttpClientHandlerIntegration, Arguments=2]
+05/20/25 03:30:52.564 PM [11560|32440] [info] *** CallTarget_RewriterCallback() Finished: System.Net.Http.SocketsHttpHandler.SendAsync() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.Http.HttpClient.SocketsHttpHandler.SocketsHttpHandlerIntegration, Arguments=2]
+05/20/25 03:30:58.657 PM [11560|43644] [info] Request ReJIT done for 11 methods
+05/20/25 03:30:58.665 PM [11560|43644] [info] Request ReJIT done for 11 methods
+05/20/25 03:30:58.689 PM [11560|43644] [info] Request ReJIT done for 1 methods
+05/20/25 03:30:58.787 PM [11560|24000] [info] *** CallTarget_RewriterCallback() Finished: Npgsql.NpgsqlCommand.ExecuteReaderAsync() [IsVoid=0, IsStatic=0, IntegrationType=Datadog.Trace.ClrProfiler.AutoInstrumentation.AdoNet.CommandExecuteReaderWithBehaviorAndCancellationAsyncIntegration, Arguments=2]
+05/20/25 03:32:09.829 PM [11560|43644] [info] Exiting ReJIT request thread.
+05/20/25 03:32:09.829 PM [11560|24000] [info] Exiting...
+05/20/25 03:32:09.829 PM [11560|24000] [info] Stats: Total time: 77795ms | Total time in Callbacks: 285ms [Initialize=0ms, ModuleLoadFinished=58ms/69, CallTargetRequestRejit=61ms/27, CallTargetRewriter=3ms/3, AssemblyLoadFinished=0ms/69, ModuleUnloadStarted=0ms/0, JitCompilationStarted=94ms/11803, JitInlining=7ms/29204, JitCacheFunctionSearchStarted=59ms/6937, InitializeProfiler=0ms/0]

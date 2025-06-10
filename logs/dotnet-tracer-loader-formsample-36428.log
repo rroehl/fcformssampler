@@ -1,0 +1,560 @@
+[2025-05-30 09:10:59.435 -07:00|1|formsample|True] Total number of assemblies: 2
+[2025-05-30 09:10:59.473 -07:00|1|formsample|True] Resolving managed profiler directory to: C:\Program Files\Datadog\.NET Tracer\net6.0
+[2025-05-30 09:10:59.476 -07:00|1|formsample|True] Invoking managed tracer.
+[2025-05-30 09:10:59.479 -07:00|1|formsample|True] Invoking: 'Datadog.Trace.ClrProfiler.Instrumentation.Initialize', Datadog.Trace.ClrProfiler.InstrumentationLoader
+[2025-05-30 09:10:59.483 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:10:59.485 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:10:59.487 -07:00|1|formsample|True] Loading C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll with DependencyLoadContext.LoadFromAssemblyPath
+[2025-05-30 09:10:59.554 -07:00|1|formsample|True] Creating 'Datadog.Trace.ClrProfiler.InstrumentationLoader' instance.
+[2025-05-30 09:10:59.917 -07:00|1|formsample|True] Assembly Resolve event received for: Microsoft.ServiceFabric.Services.Remoting
+[2025-05-30 09:10:59.920 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Microsoft.ServiceFabric.Services.Remoting.dll
+[2025-05-30 09:10:59.922 -07:00|1|formsample|True] Assembly not found in path: C:\Program Files\Datadog\.NET Tracer\net6.0\Microsoft.ServiceFabric.Services.Remoting.dll
+[2025-05-30 09:10:59.923 -07:00|1|formsample|True] Assembly Resolve event received for: Microsoft.ServiceFabric.Services.Remoting, Culture=neutral, PublicKeyToken=null
+[2025-05-30 09:10:59.925 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Microsoft.ServiceFabric.Services.Remoting.dll
+[2025-05-30 09:10:59.926 -07:00|1|formsample|True] Assembly not found in path: C:\Program Files\Datadog\.NET Tracer\net6.0\Microsoft.ServiceFabric.Services.Remoting.dll
+[2025-05-30 09:10:59.929 -07:00|1|formsample|True] Assembly Resolve event received for: Microsoft.ServiceFabric.Services.Remoting
+[2025-05-30 09:10:59.930 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Microsoft.ServiceFabric.Services.Remoting.dll
+[2025-05-30 09:10:59.932 -07:00|1|formsample|True] Assembly not found in path: C:\Program Files\Datadog\.NET Tracer\net6.0\Microsoft.ServiceFabric.Services.Remoting.dll
+[2025-05-30 09:10:59.934 -07:00|1|formsample|True] Assembly Resolve event received for: Microsoft.ServiceFabric.Services.Remoting, Culture=neutral, PublicKeyToken=null
+[2025-05-30 09:10:59.936 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Microsoft.ServiceFabric.Services.Remoting.dll
+[2025-05-30 09:10:59.937 -07:00|1|formsample|True] Assembly not found in path: C:\Program Files\Datadog\.NET Tracer\net6.0\Microsoft.ServiceFabric.Services.Remoting.dll
+[2025-05-30 09:11:00.098 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.100 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.102 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.103 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.105 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.105 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.107 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.108 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.109 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.110 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.112 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.113 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.114 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.115 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.116 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.117 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.118 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.119 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.121 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.122 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.123 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.124 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.125 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.127 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.128 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.129 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.130 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.131 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.133 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.134 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.135 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.136 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.137 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.138 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.139 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.141 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.142 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.143 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.143 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.144 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.145 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.146 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.147 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.148 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.149 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.150 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.151 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.152 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.153 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.154 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.155 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.156 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.158 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.159 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.161 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.162 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.163 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.164 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.165 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.166 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.224 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.227 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.228 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.229 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.230 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.231 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.232 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.234 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.235 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.237 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.238 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.240 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.242 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.243 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.245 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.246 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.248 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.250 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.251 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.253 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.255 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.256 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.258 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.259 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.260 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.262 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.263 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.265 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.266 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.269 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.272 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.274 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.277 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.279 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.281 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.284 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.287 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.289 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.291 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.294 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.296 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.298 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.301 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.304 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.306 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.308 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.311 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.313 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.315 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.318 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.320 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.322 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.324 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.326 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.328 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.330 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.332 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:00.334 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:00.336 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:00.338 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.318 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.319 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.321 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.323 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.324 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.325 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.327 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.328 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.330 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.331 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.332 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.333 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.334 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.335 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.336 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.337 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.338 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.339 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.340 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.342 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.343 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.345 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.346 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.348 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.349 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.350 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.352 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.354 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.356 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.357 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.358 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.360 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.361 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.362 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.363 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.365 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.366 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.367 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.368 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.370 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.372 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.373 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.375 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.376 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.377 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.378 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.379 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.381 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.382 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.383 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.384 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.385 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.386 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.388 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.390 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.392 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.393 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:05.394 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:05.396 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:05.397 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.822 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.824 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.825 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.826 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.828 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.829 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.830 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.831 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.832 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.834 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.835 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.836 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.837 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.838 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.839 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.840 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.840 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.841 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.842 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.843 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.844 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.846 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.847 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.849 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.850 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.851 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.852 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.854 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.855 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.857 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.858 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.860 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.861 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.863 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.864 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.865 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.866 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.868 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.869 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.871 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.872 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.874 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.876 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.877 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.879 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.880 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.882 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.883 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.885 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.886 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.888 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.889 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.890 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.891 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.892 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.893 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.894 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:13.896 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:13.897 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:13.899 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.300 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.302 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.304 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.305 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.306 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.307 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.309 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.310 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.311 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.312 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.313 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.314 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.315 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.316 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.317 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.318 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.319 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.320 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.321 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.322 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.323 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.324 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.324 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.325 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.326 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.327 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.328 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.328 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.329 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.330 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.331 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.332 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.332 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.333 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.335 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.336 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.338 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.339 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.340 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.342 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.343 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.344 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.345 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.346 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.347 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.348 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.349 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.351 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.352 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.353 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.353 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.354 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.355 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.356 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.356 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.357 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.358 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:11:15.359 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:11:15.360 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:11:15.361 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.007 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.012 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.017 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.021 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.027 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.030 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.034 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.038 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.043 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.046 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.050 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.057 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.061 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.065 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.068 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.071 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.075 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.078 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.081 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.085 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.090 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.095 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.100 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.106 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.109 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.112 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.115 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.119 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.123 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.126 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.129 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.132 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.135 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.139 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.143 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.146 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.149 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.152 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.155 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.157 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.160 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.164 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.168 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.174 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.177 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.181 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.184 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.187 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.190 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.193 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.195 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.198 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.202 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.204 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.208 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.211 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.213 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.217 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.219 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.224 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.229 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.232 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.236 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.239 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.242 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.245 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.249 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.252 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.256 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.259 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.261 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.264 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.267 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.270 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.274 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.291 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.294 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.297 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.300 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.303 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.306 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.308 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.311 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.314 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.318 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.321 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.324 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.327 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.330 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.333 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.337 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.340 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.346 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.350 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.355 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.358 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.362 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.365 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.369 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.372 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.375 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.377 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.381 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.384 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.388 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.392 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.396 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.399 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.402 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.406 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.410 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.414 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.417 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.421 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.428 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.434 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.438 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:12:46.441 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:12:46.446 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:12:46.459 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.742 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.752 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.753 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.755 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.756 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.757 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.758 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.760 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.760 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.761 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.762 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.763 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.764 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.765 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.766 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.767 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.768 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.769 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.771 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.772 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.773 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.775 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.776 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.777 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.778 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.779 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.780 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.782 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.783 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.784 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.786 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.787 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.788 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.789 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.790 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.791 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.792 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.793 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.794 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.795 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.796 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.797 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.797 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.798 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.799 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.800 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.801 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.802 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.803 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.804 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.805 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.806 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.807 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.808 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.809 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.810 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.811 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.812 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.813 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.814 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.818 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.820 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.821 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.822 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.823 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.824 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.825 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.826 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.827 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.828 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.829 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.830 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.831 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.832 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.833 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.834 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.835 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.836 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.837 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.838 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.839 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.840 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.841 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.842 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.843 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.844 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.845 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.846 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.847 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.847 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.848 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.849 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.850 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.851 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.852 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.853 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.854 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.856 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.857 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.858 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.859 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.860 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.861 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.862 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.863 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.864 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.865 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.866 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.866 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.867 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.868 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.869 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.870 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.871 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.872 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.873 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.874 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]
+[2025-05-30 09:14:46.875 -07:00|1|formsample|True] Assembly Resolve event received for: Datadog.Trace
+[2025-05-30 09:14:46.876 -07:00|1|formsample|True] Looking for: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll
+[2025-05-30 09:14:46.877 -07:00|1|formsample|True] Loading from cache. [Path: C:\Program Files\Datadog\.NET Tracer\net6.0\Datadog.Trace.dll]

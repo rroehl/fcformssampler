@@ -1,0 +1,8 @@
+[2025-05-22 13:19:42.489 | info | PId: 27160 | TId: 48704] Non boolean value "formsample" for "DD_TRACE_DEBUG" environment variable. Enable debug log = 0 (default).
+[2025-05-22 13:19:42.490 | info | PId: 27160 | TId: 48704] Crashtracking - Registering unhandled exception filter.
+[2025-05-22 13:19:42.490 | warning | PId: 27160 | TId: 48704] Crashtracking - Failed to get module handle for coreclr.dll or clr.dll
+[2025-05-22 13:19:42.490 | info | PId: 27160 | TId: 48704] DynamicDispatcherImpl::LoadConfiguration: Reading configuration file from: "C:\\Program Files\\Datadog\\.NET Tracer\\win-x64\\loader.conf"
+[2025-05-22 13:19:42.514 | info | PId: 27160 | TId: 48704] DynamicInstanceImpl::LoadClassFactory: The IClassFactory from C:\Program Files\Datadog\.NET Tracer\win-x64\.\Datadog.Profiler.Native.dll is disabled
+[2025-05-22 13:19:42.514 | info | PId: 27160 | TId: 48704] The continuous profiler is disabled
+[2025-05-22 13:19:42.514 | info | PId: 27160 | TId: 48704] ICorProfilerInfo12 available. Profiling API compatibility: .NET Core 5.0 or later.
+[2025-05-22 13:19:42.514 | info | PId: 27160 | TId: 48704] CorProfiler::Initialize ClrProfiler disabled: dd-trace.exe found in default exclude list
